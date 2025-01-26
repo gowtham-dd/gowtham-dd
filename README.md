@@ -90,8 +90,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gowtham-dd&" alt="gowtham-dd" /></p>
 
 ---
-<iframe src="https://hackerrank-badge.herokuapp.com/gowtham-dd?s=1" style="border: 0; height: 230px; width: 240px; overflow:hidden;" scrolling="no" frameBorder="0"></iframe>
-
 
 ### 💡 Fun Fact:
 
