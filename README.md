@@ -18,7 +18,7 @@
 
 - 👨‍💻 **All My Projects**: [Explore my work here](https://gowthamd.netlify.app/)
 
-- 📫 **Reach Out to Me**: gowthamd997@gmail.com
+- 📫 **Reach Out to Me**: gowthamd997@gmail.com    
 
 ---
 
