@@ -1,4 +1,3 @@
-
 <h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
 
 <h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>
@@ -18,7 +17,9 @@
 
 - 👨‍💻 **All My Projects**: [Explore my work here](https://bento.me/gowthamd)
 
-- 📫 **Reach Out to Me**: gowthamd997@gmail.com    
+- 📧 **Reach Out to Me**: gowthamd997@gmail.com    
+
+- 📘 **Read My Articles**: [Medium Profile](https://medium.com/@gowthamd997)
 
 ---
 
@@ -94,5 +95,3 @@
 ### 💡 Fun Fact:
 
 - 🎨 When I'm not coding, I love to dive into design tools like **Figma** and work on enhancing mobile user interfaces.
-
----
