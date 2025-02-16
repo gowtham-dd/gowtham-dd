@@ -86,7 +86,6 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gowtham-dd&show_icons=true&locale=en&layout=compact" alt="gowtham-dd" />
 </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&locale=en" alt="gowtham-dd" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gowtham-dd&" alt="gowtham-dd" /></p>
 
