@@ -45,13 +45,14 @@
   <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
 </p>
 
----
 
-### 📊 GitHub Stats:
-
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true" alt="Gowtham's GitHub Stats" /> <br/> <br/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical" alt="Top Languages" /> </div>
----
 
 ### 💡 Fun Fact:
 
 🎨 When I'm not coding, I love to dive into design tools like Figma and work on enhancing mobile user interfaces.
+
+---
+
+### 📊 GitHub Stats:
+
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true" alt="Gowtham's GitHub Stats" />  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical" alt="Top Languages" /> </div>
