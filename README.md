@@ -3,7 +3,7 @@
 <h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>  
 <img align="right" alt="Coding" width="350" src="https://i.redd.it/n8agw6z2smyb1.gif"> 
 
-- 🔭 Currently working on: Flutter apps using Provider for state management.
+- 🔭 Currently working on: Flutter apps using Provider for state management. 
 
 - 🌱 Learning and Improving: Expanding my expertise in Dart, Flutter, and Machine Learning to create dynamic, user-friendly mobile applications.
 
