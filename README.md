@@ -1,62 +1,77 @@
-<h1 align="center">Hey there! 👋 I'm Gowtham D</h1>       
+<h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
 
-<h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>  
-<img align="right" alt="Coding" width="350" src="https://i.redd.it/n8agw6z2smyb1.gif"> 
+<h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>
 
-- 🔭 Currently working on: Flutter apps using Provider for state management. 
-
-- 🌱 Learning and Improving: Expanding my expertise in Dart, Flutter, and Machine Learning to create dynamic, user-friendly mobile applications.
-
-- 🛠 Collaborating on: Building innovative mobile applications that solve real-world problems.
-
-- 🤝 Seeking Help with: Machine Learning projects, aiming to integrate AI into mobile apps.
-
-- 💡 Ask Me About: Flutter, Dart, Front-end Development, Mobile UI/UX Design, and state management with Provider.
-
-- 👨‍💻 All My Projects: [Explore my work here](https://bento.me/gowthamd)
-
-- 📧 Reach Out to Me: gowthamd997@gmail.com    
-
-- 📘 Read My Articles: [Medium Profile](https://medium.com/@gowthamd997)
-
----
-
-### 🌐 Let's Connect:
-
-<p align="left">
-  <a href="https://linkedin.com/in/gowthamd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gowthamd" height="30" width="40" /></a>
-  <a href="https://instagram.com/gowtham_d__" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gowtham_d__" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="coding-gif"/>
 </p>
 
 ---
 
-### 💻 Languages & Tools I Use: 
+## 👨‍💻 About Me
 
-<p align="left"> 
-  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> 
-  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-  <a href="https://dart.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> 
-  <a href="https://www.figma.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
-  <a href="https://firebase.google.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> 
-  <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> 
-  <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-  <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
-  <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+- 🔭 Currently working on **Flutter apps** using **Provider** for state management.
+- 🌱 Exploring **Machine Learning** and **Gemini Vision Pro 1.5** to bring intelligence into mobile apps.
+- 📱 Building dynamic, user-friendly apps that solve real-world problems for **farmers, medical use cases**, and more.
+- 🛠 Passionate about integrating **IoT**, **AI**, and **mobile UI/UX** to enhance the digital experience.
+- 🤝 Actively collaborating on team projects (Team: **Quadraples**) and hackathons like **Google Solution Challenge 2025**.
+- 🧠 Love to work on innovative projects like:
+  - Crop rotation prediction using **Linear Regression**
+  - Plant disease detection using **Gemini API**
+  - In-app social feed for farmers to connect and report issues (Instagram-like UI)
+  - IoT integration for live sensor updates
+
+---
+
+## 📫 Let's Connect
+
+<p align="center">
+  <a href="https://linkedin.com/in/gowthamd" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-GowthamD-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="https://instagram.com/gowtham_d__" target="_blank"><img src="https://img.shields.io/badge/Instagram-gowtham_d__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://medium.com/@gowthamd997" target="_blank"><img src="https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+  <a href="https://bento.me/gowthamd" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore-blueviolet?style=for-the-badge&logo=codepen&logoColor=white" alt="Portfolio"/></a>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,python,cpp,html,css,mysql,figma,github,git" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true&hide_border=false&border_radius=10" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical&hide_border=false&border_radius=10" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" />
 </p>
 
 
 
-### 💡 Fun Fact:
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&theme=radical&hide_border=false&border_radius=10&area=true&line=ff61a6&point=ffffff" />
+</p>
 
-🎨 When I'm not coding, I love to dive into design tools like Figma and work on enhancing mobile user interfaces.
+
+
 
 ---
 
-### 📊 GitHub Stats:
+## ✨ Fun Facts
 
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true" alt="Gowtham's GitHub Stats" />  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical" alt="Top Languages" /> </div>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gowtham-dd&theme=radical" alt="gowtham-dd's streak"/>
-</div>
+- 🎨 Love crafting beautiful UI in **Figma** and turning it into responsive Flutter code.
+- 🧑‍🏫 Enjoy mentoring and helping beginners in the world of mobile development.
+- ⚡ Pro Tip: Always test your UI on both Android and iOS for perfection.
 
+---
+
+> 💬 _“Code is like humor. When you have to explain it, it’s bad.”_ – Cory House  
+> 🚀 Let’s build impactful, inclusive tech — together.
