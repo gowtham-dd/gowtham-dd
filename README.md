@@ -56,3 +56,7 @@
 ### 📊 GitHub Stats:
 
 <div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true" alt="Gowtham's GitHub Stats" />  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical" alt="Top Languages" /> </div>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=gowtham-dd&theme=radical" alt="gowtham-dd's streak"/>
+</div>
+
