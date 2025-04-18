@@ -26,8 +26,8 @@
 ## 📫 Let's Connect
 
 <p align="center">
-  <a href="https://linkedin.com/in/gowthamd" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-GowthamD-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
-  <a href="https://instagram.com/gowtham_d__" target="_blank"><img src="https://img.shields.io/badge/Instagram-gowtham_d__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="[https://linkedin.com/in/gowthamd](https://www.linkedin.com/in/gowtham-d-123186270/)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-GowthamD-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="[https://instagram.com/gowtham_d__](https://www.instagram.com/d_._gowtham/)" target="_blank"><img src="https://img.shields.io/badge/Instagram-gowtham_d__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://medium.com/@gowthamd997" target="_blank"><img src="https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
   <a href="https://bento.me/gowthamd" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore-blueviolet?style=for-the-badge&logo=codepen&logoColor=white" alt="Portfolio"/></a>
