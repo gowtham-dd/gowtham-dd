@@ -16,10 +16,7 @@
 - 🛠 Passionate about integrating **IoT**, **AI**, and **mobile UI/UX** to enhance the digital experience.
 - 🤝 Actively collaborating on team projects (Team: **Quadraples**) and hackathons like **Google Solution Challenge 2025**.
 - 🧠 Love to work on innovative projects like:
-  - Crop rotation prediction using **Linear Regression**
-  - Plant disease detection using **Gemini API**
-  - In-app social feed for farmers to connect and report issues (Instagram-like UI)
-  - IoT integration for live sensor updates
+
 
 ---
 
