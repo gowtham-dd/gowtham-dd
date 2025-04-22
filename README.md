@@ -48,8 +48,10 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" />
+  <img src="https://streak-stats.demolab.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" alt="GitHub Streak" />
 </p>
+
+
 
 
 
