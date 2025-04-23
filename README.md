@@ -1,7 +1,7 @@
 <h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
 
 <h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>
-
+ 
 <p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="350" alt="coding-gif"/>
 </p>
@@ -47,10 +47,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical&hide_border=false&border_radius=10" height="180"/>
 </p>
 
-<p align="center">
 
-  <img src="https://streak-stats.demolab.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" alt="GitHub Streak" />
-</p>
 
 
 
