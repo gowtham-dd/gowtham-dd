@@ -1,4 +1,3 @@
-![LITERATE-SPORK Badge](https://img.shields.io/badge/LITERATE--SPORK-Contributor-brightgreen?style=for-the-badge&logo=github)
 <h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
 
 <h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>
@@ -17,7 +16,6 @@
 - 🛠 Passionate about integrating **IoT**, **AI**, and **mobile UI/UX** to enhance the digital experience.
 - 🤝 Actively collaborating on team projects (Team: **Quadraples**) and hackathons like **Google Solution Challenge 2025**.
 - 🧠 Love to work on innovative projects like:
-
 
 ---
 
@@ -41,25 +39,32 @@
 
 ---
 
+## 🌟 Achievements & Badges
+
+<div align="center" style="border: 2px dashed #ff61a6; padding: 20px; border-radius: 10px;">
+
+  <p>
+    <img src="https://img.shields.io/badge/LITERATE--SPORK-Contributor-brightgreen?style=for-the-badge&logo=github" />
+  </p>
+
+  <img src="https://github-profile-trophy.vercel.app/?username=gowtham-dd&theme=radical&margin-w=10&margin-h=15&row=2&column=3" alt="GitHub Trophies" />
+</div>
+
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=radical&count_private=true&hide_border=false&border_radius=10" height="180"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical&hide_border=false&border_radius=10" height="180"/>
+
+   <img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" />
+
 </p>
-
-
-
-
-
-
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&theme=radical&hide_border=false&border_radius=10&area=true&line=ff61a6&point=ffffff" />
 </p>
-
-
-
 
 ---
 
@@ -71,4 +76,4 @@
 
 ---
 
-> 💬 _“Code is like humor. When you have to explain it, it’s bad.”_ – Cory House  
+> 💬 _“Code is like humor. When you have to explain it, it’s bad.”_ – Cory House
