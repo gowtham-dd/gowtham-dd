@@ -1,4 +1,4 @@
- <h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
+<h1 align="center">Hey there! 👋 I'm Gowtham D</h1>
 
 <h3 align="center">🚀 Flutter Developer | Mobile App Enthusiast | Tech Explorer 🚀</h3>
  
@@ -33,9 +33,11 @@
 
 ## 🛠️ Tech Stack
 
+### 🔧 Mobile, Backend & Dev Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,python,cpp,html,css,mysql,figma,github,git" />
+  <img src="https://skillicons.dev/icons?i=flutter,dart,firebase,python,cpp,html,css,mysql,figma,github,git,selenium,postman,numpy,pandas,matplotlib,seaborn,powerbi" />
 </p>
+
 
 ---
 
@@ -59,7 +61,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=radical&hide_border=false&border_radius=10" height="180"/>
  
    <img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=radical&hide_border=false&border_radius=10" />
-
 </p>
 
 <p align="center">
