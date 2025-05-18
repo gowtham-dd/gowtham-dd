@@ -29,7 +29,7 @@
   <a href="https://bento.me/gowthamd" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore-blueviolet?style=for-the-badge&logo=codepen&logoColor=white" alt="Portfolio"/></a>
 </p>
 
----
+--- 
 
 ## 🛠️ Tech Stack
 
