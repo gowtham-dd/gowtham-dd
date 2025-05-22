@@ -50,6 +50,7 @@
   </p>
 
   <img src="https://github-profile-trophy.vercel.app/?username=gowtham-dd&theme=radical&margin-w=10&margin-h=15&row=2&column=3" alt="GitHub Trophies" />
+
 </div>
 
 ---
