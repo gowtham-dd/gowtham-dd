@@ -31,7 +31,7 @@
 
 --- 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack 
 
 ### 🔧 Mobile, Backend & Dev Tools
 <p align="center">
