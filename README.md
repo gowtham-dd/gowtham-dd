@@ -14,7 +14,7 @@
 ## 📫 Let's Connect  
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gowtham-d-123186270/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-GowthamD-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/gowtham-duraipandi/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-GowthamD-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn"/></a>
   <a href="https://www.instagram.com/d_._gowtham/" target="_blank"><img src="https://img.shields.io/badge/Instagram-gowtham_d__-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://medium.com/@gowthamd997" target="_blank"><img src="https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
