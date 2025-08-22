@@ -19,6 +19,7 @@
   <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://medium.com/@gowthamd997" target="_blank"><img src="https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
   <a href="https://bento.me/gowthamd" target="_blank"><img src="https://img.shields.io/badge/Portfolio-Explore-blueviolet?style=for-the-badge&logo=codepen&logoColor=white" alt="Portfolio"/></a>
+   <a href="https://www.kaggle.com/gowthamdd" target="_blank"><img src="https://img.shields.io/badge/KAGGLE-EXPERT-blue?style=for-the-badge&logo=Kaggle" alt="Kaggle"/></a>
 </p>  
 
 ---
