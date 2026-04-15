@@ -1,3 +1,6 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=Profile%20views&color=0e75b6&style=flat" alt="gowtham-dd" /> </p>
+
+
 <h1 align="center"> 
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=FF61A6&center=true&vCenter=true&random=false&width=600&lines=Hey+there!+👋+I'm+Gowtham+D;Data+Science+Explorer;MLOps+%7C+Automation" alt="Typing SVG" /> 
 </h1>
