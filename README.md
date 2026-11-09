@@ -7,7 +7,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-light.svg" />
-    <img width="100%" alt="Gowtham D — AI Engineer &amp; MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
+    <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
   </picture>
 </a>
 
@@ -36,7 +36,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-light.svg" />
-  <img width="100%" alt="Technical Capabilities & Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" title="Skills & Stack — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
+  <img width="100%" alt="Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" title="Skills · Stack — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
 </picture>
 </a>
 
@@ -46,7 +46,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-light.svg" />
-  <img width="100%" alt="Production Experience & Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" title="Experience Timeline — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
+  <img width="100%" alt="Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" title="Experience Timeline — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
 </picture>
 </a>
 
@@ -56,7 +56,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-light.svg" />
-  <img width="100%" alt="Hackathons & Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" title="Hackathons & Honors — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
+  <img width="100%" alt="Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" title="Hackathons · Honors — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
 </picture>
 </a>
 
@@ -66,7 +66,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-light.svg" />
-  <img width="100%" alt="Engineering Metrics & Code Distribution — 77 Repos, 12 Shipped Systems" title="Engineering Metrics — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
+  <img width="100%" alt="Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems" title="Engineering Metrics — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
 </picture>
 </a>
 

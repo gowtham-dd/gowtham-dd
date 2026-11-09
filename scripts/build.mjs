@@ -58,7 +58,7 @@ const readmeContent = `<!-- ═════════════════�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="${RAW}/hero-banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="${RAW}/hero-banner-light.svg" />
-    <img width="100%" alt="Gowtham D — AI Engineer &amp; MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="${RAW}/hero-banner-dark.svg" />
+    <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="${RAW}/hero-banner-dark.svg" />
   </picture>
 </a>
 
@@ -74,10 +74,10 @@ const readmeContent = `<!-- ═════════════════�
 <br/>
 
 ${card("pinned-projects", "Pinned Repositories", "Gowtham D — Pinned Repositories Live from GitHub")}
-${card("skills-bento", "Skills & Stack", "Technical Capabilities & Stack — Agentic AI, Deep Learning, MLOps, Vector Stores")}
-${card("experience-timeline", "Experience Timeline", "Production Experience & Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards")}
-${card("hackathons-grid", "Hackathons & Honors", "Hackathons & Championship Awards — 3x 1st Prize, Best Paper, Gold Medal")}
-${card("activity-radar", "Engineering Metrics", "Engineering Metrics & Code Distribution — 77 Repos, 12 Shipped Systems")}
+${card("skills-bento", "Skills · Stack", "Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores")}
+${card("experience-timeline", "Experience Timeline", "Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards")}
+${card("hackathons-grid", "Hackathons · Honors", "Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal")}
+${card("activity-radar", "Engineering Metrics", "Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems")}
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="${RAW}/snake-dark.svg" />

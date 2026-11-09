@@ -80,12 +80,10 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
     }).join("\n");
 
     const css = `
-      .p-card{transition:transform 0.2s ease-out, filter 0.2s;cursor:pointer}
+      .p-card{cursor:pointer}
       .p-bg{transition:fill 0.2s, stroke 0.2s, stroke-width 0.2s}
       .p-card:hover .p-bg{fill:${t.surfaceHover};stroke:${t.accent};stroke-width:1.5}
       .p-card:hover .p-title{fill:${t.accent}}
-      .p-card:hover .p-arrow{transform:translateX(3px)}
-      .p-arrow{transition:transform 0.2s}
     `;
 
     return cardFrame({

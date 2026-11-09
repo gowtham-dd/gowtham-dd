@@ -16,7 +16,7 @@ export async function renderBento(outDir = "dist") {
         y: 74,
         w: 416,
         h: 184,
-        title: "AGENTIC AI & LLMS",
+        title: "AGENTIC AI + LLMS",
         tag: "CORE EXPERTISE",
         color: t.accent,
         items: [
@@ -25,14 +25,14 @@ export async function renderBento(outDir = "dist") {
           { name: "FastAPI", logo: "fastapi" },
           { name: "Docker", logo: "docker" },
         ],
-        desc: "Autonomous multi-agent orchestration, state machines and robust tool calling.",
+        desc: "Autonomous multi-agent orchestration, state machines and tool calling.",
       },
       {
         x: 472,
         y: 74,
         w: 416,
         h: 184,
-        title: "COMPUTER VISION & DL",
+        title: "COMPUTER VISION + DL",
         tag: "NEURAL NETWORKS",
         color: t.cyan,
         items: [
@@ -48,7 +48,7 @@ export async function renderBento(outDir = "dist") {
         y: 274,
         w: 416,
         h: 184,
-        title: "MLOPS & PIPELINES",
+        title: "MLOPS + PIPELINES",
         tag: "PRODUCTION SYSTEMS",
         color: t.gold,
         items: [
@@ -64,7 +64,7 @@ export async function renderBento(outDir = "dist") {
         y: 274,
         w: 416,
         h: 184,
-        title: "DATA & VECTOR STORES",
+        title: "DATA + VECTOR STORES",
         tag: "KNOWLEDGE ENGINES",
         color: t.accent,
         items: [
@@ -95,7 +95,7 @@ export async function renderBento(outDir = "dist") {
           `;
         }).join("");
 
-        const descLines = wrapText(b.desc, 48);
+        const descLines = wrapText(b.desc, 38);
 
         return `
         <g class="bento-box" transform="translate(${b.x}, ${b.y})">
@@ -105,8 +105,8 @@ export async function renderBento(outDir = "dist") {
           <g transform="translate(18, 28)">
             <circle cx="0" cy="0" r="4.5" fill="${b.color}"/>
             <text x="14" y="4" font-family="${FONTS.mono}" font-size="11" font-weight="700" letter-spacing="0.08em" fill="${b.color}">${esc(b.title)}</text>
-            <rect x="${b.w - 146}" y="-11" width="112" height="20" rx="10" fill="${t.tagBg}"/>
-            <text x="${b.w - 90}" y="3" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
+            <rect x="${b.w - 150}" y="-11" width="132" height="20" rx="10" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
+            <text x="${b.w - 84}" y="3" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
           </g>
 
           <!-- 2x2 Tool Pills Strip -->
@@ -121,9 +121,9 @@ export async function renderBento(outDir = "dist") {
       })
       .join("\n");
 
+    // Zero transform movement on hover - completely static cards
     const css = `
-      .bento-box{transition:transform 0.2s}
-      .bento-box:hover{transform:translateY(-3px)}
+      .b-bg{transition:fill 0.2s, stroke 0.2s}
       .bento-box:hover .b-bg{fill:${t.surfaceHover};stroke:${t.accent}}
     `;
 
@@ -132,7 +132,7 @@ export async function renderBento(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "⚙️ Technical Capabilities & Stack",
+      title: "⚙️ Technical Capabilities · Stack",
       badge: "AGENTIC AI · COMPUTER VISION · MLOPS · VECTOR DATABASES",
       icon: "⚡",
       css,
@@ -143,7 +143,7 @@ export async function renderBento(outDir = "dist") {
   // 2. Production Career Milestones
   function renderExperience({ theme, fullPage }) {
     const t = THEME[theme];
-    const H = 484;
+    const H = 496;
 
     const milestones = [
       {
@@ -152,7 +152,7 @@ export async function renderBento(outDir = "dist") {
         period: "Mar 2026 – Present",
         color: t.accent,
         bullet1: "Reduced system latency by 32% and compute cost by 20% on FastAPI backend",
-        bullet2: "Optimized AWS S3 vector storage & retrieval pipelines, boosting recall by 45%",
+        bullet2: "Optimized AWS S3 vector storage and retrieval pipelines, boosting recall by 45%",
       },
       {
         org: "Pixel Cognitix",
@@ -164,34 +164,34 @@ export async function renderBento(outDir = "dist") {
       },
       {
         org: "Alesa AI (UK)",
-        role: "App & AI Developer Intern",
+        role: "App + AI Developer Intern",
         period: "Mar 2025 – Sep 2025",
         color: t.gold,
-        bullet1: "Scaled production APIs for flagship applications (Noulez & SnagNinja)",
+        bullet1: "Scaled production APIs for flagship applications (Noulez + SnagNinja)",
         bullet2: "Optimized SQL indexing and query execution, cutting read latency by 40%",
       },
       {
         org: "Pyroguards (CBE)",
-        role: "App & AI Developer Intern",
+        role: "App + AI Developer Intern",
         period: "Jan 2025 – Mar 2025",
         color: t.accent,
         bullet1: "Engineered XGBoost URL phishing classifier with 98.4% detection accuracy",
-        bullet2: "Containerized model with FastAPI & Docker, delivering 95ms median response time",
+        bullet2: "Containerized model with FastAPI + Docker, delivering 95ms median response time",
       },
       {
         org: "Literate Spork",
-        role: "Founder & Community Lead",
+        role: "Founder + Community Lead",
         period: "2024 – Present",
         color: t.cyan,
-        bullet1: "Mentored 50+ students in hands-on MLOps, LLM architectures & Agentic AI",
+        bullet1: "Mentored 50+ students in hands-on MLOps, LLM architectures + Agentic AI",
         bullet2: "Maintained 20+ open-source repositories and led 40+ technical peer reviews",
       },
     ];
 
     const cardW = 820;
-    const cardH = 68;
+    const cardH = 72;
     const startY = 74;
-    const itemH = 76;
+    const itemH = 80;
 
     const itemsSvg = milestones.map((m, i) => {
       const y = startY + i * itemH;
@@ -206,20 +206,18 @@ export async function renderBento(outDir = "dist") {
           <g>
             <rect class="e-bg" width="${cardW}" height="${cardH}" rx="10" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
             
-            <!-- Title, Org, and Period -->
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
             <g transform="translate(18, 22)">
-              <text font-family="${FONTS.sans}" font-size="13">
-                <tspan font-weight="700" fill="${t.text}">${esc(m.role)}</tspan>
-                <tspan font-weight="600" fill="${m.color}"> @ ${esc(m.org)}</tspan>
-              </text>
+              <text font-family="${FONTS.sans}" font-size="12.5" font-weight="700" fill="${t.text}">${esc(m.role)}</text>
+              <text x="222" font-family="${FONTS.sans}" font-size="12.5" font-weight="600" fill="${m.color}">@ ${esc(m.org)}</text>
               <text x="${cardW - 36}" y="0" text-anchor="end" font-family="${FONTS.mono}" font-size="10.5" font-weight="500" fill="${t.muted}">${esc(m.period)}</text>
             </g>
 
-            <!-- Clean Justified Bullets -->
-            <g transform="translate(18, 41)">
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
               <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}"><tspan fill="${m.color}" font-weight="700">● </tspan>${esc(m.bullet1)}</text>
             </g>
-            <g transform="translate(18, 57)">
+            <g transform="translate(18, 59)">
               <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}"><tspan fill="${m.color}" font-weight="700">● </tspan>${esc(m.bullet2)}</text>
             </g>
           </g>
@@ -227,9 +225,9 @@ export async function renderBento(outDir = "dist") {
       `;
     }).join("\n");
 
+    // Zero transform movement on hover - completely static cards
     const css = `
-      .exp-item{transition:transform 0.18s}
-      .exp-item:hover{transform:translateX(4px)}
+      .e-bg{transition:fill 0.2s, stroke 0.2s}
       .exp-item:hover .e-bg{fill:${t.surfaceHover};stroke:${t.accent}}
     `;
 
@@ -238,7 +236,7 @@ export async function renderBento(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "💼 Production Experience & Internships",
+      title: "💼 Production Experience · Internships",
       badge: "4 INTERNSHIPS · 1 COMMUNITY FOUNDED · SHIPPED PRODUCTION SYSTEMS",
       icon: "🏢",
       css,

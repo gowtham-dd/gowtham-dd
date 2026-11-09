@@ -104,8 +104,7 @@ export async function renderHackathons(outDir = "dist") {
     }).join("\n");
 
     const css = `
-      .h-card{transition:transform 0.2s}
-      .h-card:hover{transform:translateY(-3px)}
+      .h-bg{transition:fill 0.2s, stroke 0.2s}
       .h-card:hover .h-bg{fill:${t.surfaceHover};stroke:${t.accent}}
     `;
 
@@ -114,7 +113,7 @@ export async function renderHackathons(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "🏆 Hackathons & Championship Awards",
+      title: "🏆 Hackathons · Honors + Awards",
       badge: "3× FIRST PRIZE · 1× BEST PAPER · 1× GOLD MEDAL",
       icon: "🏆",
       css,

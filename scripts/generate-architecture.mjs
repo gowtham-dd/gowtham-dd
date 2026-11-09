@@ -102,8 +102,8 @@ export async function renderArchitecture(outDir = "dist") {
       .join("\n");
 
     const css = `
-      .arch-node{transition:transform 0.2s;cursor:default}
-      .arch-node:hover{transform:translateY(-3px)}
+      .arch-node{cursor:default}
+      .n-bg{transition:fill 0.2s, stroke 0.2s}
       .arch-node:hover .n-bg{fill:${t.surfaceHover};stroke:${t.accent}}
       @keyframes dash{to{stroke-dashoffset:-28}}
       .pulse-line{animation:dash 1.2s linear infinite}

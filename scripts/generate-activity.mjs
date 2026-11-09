@@ -12,8 +12,8 @@ export async function renderActivity(outDir = "dist") {
       { name: "Python", share: 0.62, color: "#3572A5" },
       { name: "Jupyter / ML", share: 0.18, color: t.accent },
       { name: "FastAPI / Docker", share: 0.10, color: t.cyan },
-      { name: "SQL & DB", share: 0.06, color: t.gold },
-      { name: "Shell & CI/CD", share: 0.04, color: "#8B5CF6" },
+      { name: "SQL + DB", share: 0.06, color: t.gold },
+      { name: "Shell + CI/CD", share: 0.04, color: "#8B5CF6" },
     ];
 
     const metrics = [
@@ -62,7 +62,7 @@ export async function renderActivity(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "📊 Engineering Metrics & Code Distribution",
+      title: "📊 Engineering Metrics · Distribution",
       badge: "PROVEN IMPACT · OPEN SOURCE COMMITS",
       icon: "📈",
       content: `
@@ -71,10 +71,10 @@ export async function renderActivity(outDir = "dist") {
         <g>${metricCardsSvg}</g>
         <g>
           <text x="42" y="302" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
-            <tspan fill="${t.accent}">●</tspan> Primary Development: <tspan fill="${t.text}">Python, LangGraph &amp; PyTorch</tspan>
+            <tspan fill="${t.accent}">●</tspan> Primary Development: <tspan fill="${t.text}">Python, LangGraph and PyTorch</tspan>
           </text>
           <text x="450" y="302" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
-            <tspan fill="${t.cyan}">●</tspan> Architecture: <tspan fill="${t.text}">Microservices &amp; Vector Databases</tspan>
+            <tspan fill="${t.cyan}">●</tspan> Architecture: <tspan fill="${t.text}">Microservices and Vector Databases</tspan>
           </text>
         </g>
       `,
