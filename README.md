@@ -3,13 +3,11 @@
      Palette: Obsidian (#08090C) · Solar Flame (#FF5722) · Amber (#FBBF24)
      ═══════════════════════════════════════════════════════════════════════ -->
 
-<a href="https://gowthamdportfolio.vercel.app/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-light.svg" />
-    <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-light.svg" />
+  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
+</picture>
 
 <p align="center">
   <a href="https://gowthamdportfolio.vercel.app/" title="Live Portfolio Website"><img src="https://skillicons.dev/icons?i=vercel" height="38" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -22,53 +20,43 @@
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-light.svg" />
-  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" title="Pinned Repositories — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
+  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
 </picture>
-</a>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-light.svg" />
-  <img width="100%" alt="Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" title="Skills · Stack — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
+  <img width="100%" alt="Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
 </picture>
-</a>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-light.svg" />
-  <img width="100%" alt="Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" title="Experience Timeline — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
+  <img width="100%" alt="Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
 </picture>
-</a>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-light.svg" />
-  <img width="100%" alt="Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" title="Hackathons · Honors — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
+  <img width="100%" alt="Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
 </picture>
-</a>
 
 <br/>
 
-<a href="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-light.svg" />
-  <img width="100%" alt="Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems" title="Engineering Metrics — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
+  <img width="100%" alt="Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
 </picture>
-</a>
 
 <br/>
 
@@ -80,5 +68,5 @@
 </picture>
 
 <p align="center">
-  <sub>All graphics rendered automatically from live GitHub data and production source code · Click any card for high-resolution view</sub>
+  <sub>Automated profile intelligence · Synchronized with live production source code</sub>
 </p>

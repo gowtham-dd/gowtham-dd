@@ -27,11 +27,10 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
       const langColor = repo.primaryLanguage?.color || t.cyan;
       const langName = repo.primaryLanguage?.name || "Code";
 
-      const tag = fullPage ? "a" : "g";
-      const href = fullPage ? ` href="${esc(repo.url)}" target="_blank"` : "";
+      const tag = "g";
 
       return `
-      <${tag} class="p-card"${href} transform="translate(${x}, ${y})">
+      <${tag} class="p-card" transform="translate(${x}, ${y})">
         <!-- Card Backdrop -->
         <rect class="p-bg" width="${cardW}" height="${cardH}" rx="12" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
         
@@ -71,19 +70,15 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
             <path d="M2 -6 V-3 C2 -1 -3 -1 -3 0 M2 -3 C2 -1 7 -1 7 0" fill="none" stroke="${t.muted}" stroke-width="1.2"/>
             <text x="16" y="0" font-family="${FONTS.mono}" font-size="11" fill="${t.muted}">${repo.forkCount}</text>
           </g>
-
-          <!-- Link Arrow -->
-          <text x="${cardW - 40}" y="0" text-anchor="end" class="p-arrow" font-family="${FONTS.mono}" font-size="12" fill="${t.accent}">→</text>
         </g>
       </${tag}>
       `;
     }).join("\n");
 
     const css = `
-      .p-card{cursor:pointer}
-      .p-bg{transition:fill 0.2s, stroke 0.2s, stroke-width 0.2s}
-      .p-card:hover .p-bg{fill:${t.surfaceHover};stroke:${t.accent};stroke-width:1.5}
-      .p-card:hover .p-title{fill:${t.accent}}
+      .p-card{cursor:default}
+      .p-bg{transition:fill 0.2s, stroke 0.2s}
+      .p-card:hover .p-bg{fill:${t.surfaceHover};stroke:${t.accent}}
     `;
 
     return cardFrame({

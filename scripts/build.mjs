@@ -37,13 +37,11 @@ await writeFile(`${outDir}/snake.svg`, snakeLight);
 
 // 3. Assemble README.md with direct Infographic Embeds & Verified Logos
 function card(name, title, alt) {
-  return `<a href="${RAW}/${name}-full.svg">
-<picture>
+  return `<picture>
   <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg" />
-  <img width="100%" alt="${alt}" title="${title} — Click to inspect high-resolution view" src="${RAW}/${name}-dark.svg" />
+  <img width="100%" alt="${alt}" src="${RAW}/${name}-dark.svg" />
 </picture>
-</a>
 
 <br/>
 `;
@@ -54,13 +52,11 @@ const readmeContent = `<!-- ═════════════════�
      Palette: Obsidian (#08090C) · Solar Flame (#FF5722) · Amber (#FBBF24)
      ═══════════════════════════════════════════════════════════════════════ -->
 
-<a href="https://gowthamdportfolio.vercel.app/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="${RAW}/hero-banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="${RAW}/hero-banner-light.svg" />
-    <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" title="Gowtham D Portfolio — Click to visit live site" src="${RAW}/hero-banner-dark.svg" />
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/hero-banner-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="${RAW}/hero-banner-light.svg" />
+  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="${RAW}/hero-banner-dark.svg" />
+</picture>
 
 <p align="center">
   <a href="https://gowthamdportfolio.vercel.app/" title="Live Portfolio Website"><img src="https://skillicons.dev/icons?i=vercel" height="38" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -86,7 +82,7 @@ ${card("activity-radar", "Engineering Metrics", "Engineering Metrics · Code Dis
 </picture>
 
 <p align="center">
-  <sub>All graphics rendered automatically from live GitHub data and production source code · Click any card for high-resolution view</sub>
+  <sub>Automated profile intelligence · Synchronized with live production source code</sub>
 </p>
 `;
 
