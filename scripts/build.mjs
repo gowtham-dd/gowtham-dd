@@ -9,6 +9,7 @@ import { renderActivity } from "./generate-activity.mjs";
 const outDir = process.argv[2] || "dist";
 const login = process.argv[3] || "gowtham-dd";
 const RAW = `https://raw.githubusercontent.com/${login}/${login}/output`;
+const V = "v=3"; // Cache-buster query param for GitHub Camo image proxy
 
 console.log(`Starting portfolio generation for @${login} into ${outDir}/...`);
 
@@ -38,9 +39,9 @@ await writeFile(`${outDir}/snake.svg`, snakeLight);
 // 3. Assemble README.md with direct Infographic Embeds & Verified Logos
 function card(name, title, alt) {
   return `<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg" />
-  <img width="100%" alt="${alt}" src="${RAW}/${name}-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg?${V}" />
+  <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg?${V}" />
+  <img width="100%" alt="${alt}" src="${RAW}/${name}-dark.svg?${V}" />
 </picture>
 
 <br/>
@@ -53,9 +54,9 @@ const readmeContent = `<!-- ═════════════════�
      ═══════════════════════════════════════════════════════════════════════ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/hero-banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="${RAW}/hero-banner-light.svg" />
-  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="${RAW}/hero-banner-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/hero-banner-dark.svg?${V}" />
+  <source media="(prefers-color-scheme: light)" srcset="${RAW}/hero-banner-light.svg?${V}" />
+  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="${RAW}/hero-banner-dark.svg?${V}" />
 </picture>
 
 <p align="center">
@@ -76,9 +77,9 @@ ${card("hackathons-grid", "Hackathons · Honors", "Hackathons · Championship Aw
 ${card("activity-radar", "Engineering Metrics", "Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems")}
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="${RAW}/snake.svg" />
-  <img width="100%" alt="Contribution snake animation" src="${RAW}/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="${RAW}/snake-dark.svg?${V}" />
+  <source media="(prefers-color-scheme: light)" srcset="${RAW}/snake.svg?${V}" />
+  <img width="100%" alt="Contribution snake animation" src="${RAW}/snake.svg?${V}" />
 </picture>
 
 <p align="center">

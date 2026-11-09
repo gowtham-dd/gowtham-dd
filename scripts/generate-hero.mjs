@@ -8,7 +8,7 @@ export async function renderHero(outDir = "dist") {
   function render({ theme, fullPage }) {
     const t = THEME[theme];
 
-    // Original Isometric 3D AI Neural Cube matrix on the right
+    // Original Isometric AI Neural Cube matrix on the right
     const cubes = [
       { x: 740, y: 90, color: t.accent },
       { x: 790, y: 115, color: t.gold },
@@ -47,9 +47,9 @@ export async function renderHero(outDir = "dist") {
           </text>
         </g>
 
-        <!-- Right Side: Clean Isometric AI Core Visual -->
+        <!-- Right Side: Restored Isometric AI Neural Core Visual -->
         <g>
-          <circle cx="740" cy="115" r="95" fill="${t.accent}" opacity="0.12"/>
+          <circle cx="740" cy="115" r="95" fill="${t.accent}" opacity="0.10" stroke="${t.border}" stroke-width="1" stroke-dasharray="3 3"/>
           <line x1="740" y1="40" x2="740" y2="90" stroke="${t.border}" stroke-width="1.5" stroke-dasharray="3 3"/>
           <line x1="690" y1="115" x2="740" y2="90" stroke="${t.border}" stroke-width="1.5"/>
           <line x1="740" y1="90" x2="790" y2="115" stroke="${t.border}" stroke-width="1.5"/>
@@ -65,12 +65,12 @@ export async function renderHero(outDir = "dist") {
           
           <g transform="translate(0, 25)">
             <text x="24" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
-              <tspan fill="${t.accent}">🎓</tspan> M.Sc Software Systems (SKASC)
+              <tspan fill="${t.accent}">🎓</tspan> M.Sc Systems (SKASC)
             </text>
-            <text x="235" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
+            <text x="220" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
               <tspan fill="${t.gold}">🏅</tspan> Data Science @ IIT Madras
             </text>
-            <text x="450" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
+            <text x="440" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
               <tspan fill="${t.cyan}">🤖</tspan> AI Intern @ Noukha + Pixel
             </text>
             <text x="670" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">

@@ -4,9 +4,9 @@
      ═══════════════════════════════════════════════════════════════════════ -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-light.svg" />
-  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-light.svg?v=3" />
+  <img width="100%" alt="Gowtham D — AI Engineer and MLOps Specialist" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hero-banner-dark.svg?v=3" />
 </picture>
 
 <p align="center">
@@ -21,50 +21,50 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-light.svg" />
-  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-light.svg?v=3" />
+  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg?v=3" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-light.svg" />
-  <img width="100%" alt="Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-light.svg?v=3" />
+  <img width="100%" alt="Technical Capabilities · Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg?v=3" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-light.svg" />
-  <img width="100%" alt="Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-light.svg?v=3" />
+  <img width="100%" alt="Production Experience · Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg?v=3" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-light.svg" />
-  <img width="100%" alt="Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-light.svg?v=3" />
+  <img width="100%" alt="Hackathons · Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg?v=3" />
 </picture>
 
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-light.svg" />
-  <img width="100%" alt="Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-light.svg?v=3" />
+  <img width="100%" alt="Engineering Metrics · Code Distribution — 77 Repos, 12 Shipped Systems" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg?v=3" />
 </picture>
 
 <br/>
 
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake.svg" />
-  <img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake-dark.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake.svg?v=3" />
+  <img width="100%" alt="Contribution snake animation" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/snake.svg?v=3" />
 </picture>
 
 <p align="center">
