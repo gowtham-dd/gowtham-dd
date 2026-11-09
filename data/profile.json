@@ -1,0 +1,270 @@
+{
+  "about": {
+    "whoami": "Gowtham D — AI Engineer building systems that actually ship",
+    "rows": [
+      {
+        "key": "role",
+        "value": "AI Engineer & MLOps Specialist",
+        "note": "LangGraph · Autonomous Agents · MLOps Pipelines"
+      },
+      {
+        "key": "location",
+        "value": "Coimbatore, Tamil Nadu",
+        "note": "India · IST (UTC+5:30)"
+      },
+      {
+        "key": "studying",
+        "value": "M.Sc. Software Systems",
+        "note": "Sri Krishna Arts & Science College (2022–2027)"
+      },
+      {
+        "key": "certified",
+        "value": "Data Science @ IIT Madras",
+        "note": "via GUVI (2023–2024)"
+      },
+      {
+        "key": "interning_at",
+        "value": "Noukha Technologies & Pixel Cognitix",
+        "note": "AI Developer Intern (2025–Present)"
+      },
+      {
+        "key": "works_with",
+        "value": "LangGraph · PyTorch · MLflow · FastAPI",
+        "note": "LLaMA 3 · Groq · Docker · n8n · Pinecone"
+      },
+      {
+        "key": "building",
+        "value": "Production-grade Agentic AI pipelines",
+        "note": "healthcare claims, security & surveillance agents"
+      },
+      {
+        "key": "mentorship",
+        "value": "Founder of Literate Spork",
+        "note": "mentoring 50+ students in hands-on MLOps"
+      },
+      {
+        "key": "talk_to_me",
+        "value": "Agentic AI, MLOps, Hackathons",
+        "note": "gowthamd997@gmail.com"
+      }
+    ]
+  },
+  "hackathons": [
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "HackNext'26 1.0",
+      "event": "HackNext'26 — 17-Agent Healthcare Claim Orchestration",
+      "venue": "SNS College of Technology",
+      "year": 2026
+    },
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "ICAITICA 2026",
+      "event": "Best Paper Award — Drug Trafficking Detection Agent",
+      "venue": "International Conference (ICAITICA)",
+      "year": 2026
+    },
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "Tech Hack '24",
+      "event": "Tech Hack '24 — SocioMedico Hospital App (Best App)",
+      "venue": "AIC Raise, Coimbatore",
+      "year": 2024
+    },
+    {
+      "result": "1ST",
+      "rank": 1,
+      "short": "SNS Tech Hack",
+      "event": "SNS Tech Hack '24 — 24-hr EV Charging Booking App",
+      "venue": "SNS College of Technology",
+      "year": 2024
+    },
+    {
+      "result": "2ND",
+      "rank": 2,
+      "short": "HackAppsters",
+      "event": "HackAppsters — Chest Radiogram Disease Classifier",
+      "venue": "L&T EduTech Hackathon",
+      "year": 2026
+    },
+    {
+      "result": "3RD",
+      "rank": 3,
+      "short": "HackVision '26",
+      "event": "HackVision 2026 — End-to-end Event Management Agent",
+      "venue": "HackVision Hackathon",
+      "year": 2026
+    },
+    {
+      "result": "TOP 50",
+      "rank": 4,
+      "short": "Kaggle Playground",
+      "event": "Kaggle Playground Series — Top 50 & Top 100 Finisher",
+      "venue": "Kaggle Competitions",
+      "year": 2026
+    },
+    {
+      "result": "FINALIST",
+      "rank": 4,
+      "short": "NeoVerse @ CIT",
+      "event": "Datathon @ CIT — Illegal Trade Detection Agent",
+      "venue": "Coimbatore Institute of Technology",
+      "year": 2026
+    }
+  ],
+  "projects": [
+    {
+      "title": "FHIRFlow",
+      "short": "FHIRFlow",
+      "description": "5-agent LangGraph healthcare claims intelligence platform: validates CPT/HCPCS policies, auto-updates FHIR records, routes approved EDI 837 claims, and drives AI voice calls for rejections.",
+      "stack": [
+        "LangGraph",
+        "Groq Llama 3.1",
+        "Pinecone",
+        "Deepgram",
+        "FHIR R4",
+        "Flask"
+      ],
+      "url": "https://github.com/gowtham-dd/FHIRFlow"
+    },
+    {
+      "title": "PR Reviewer Agent",
+      "short": "PR Reviewer",
+      "description": "Autonomous GitHub App agent acting as a virtual team member: intercepts pull requests, inspects diffs for bugs, runs test suites, generates patches, and auto-redeploys CI/CD pipelines.",
+      "stack": [
+        "LangGraph",
+        "FastAPI",
+        "GitHub App",
+        "Docker",
+        "Pytest",
+        "GitHub Actions"
+      ],
+      "url": "https://github.com/gowtham-dd/PR-Reviewer-Agent"
+    },
+    {
+      "title": "NeoVerse / NEXUS AI",
+      "short": "NeoVerse",
+      "description": "Real-time multi-agent surveillance system monitoring Telegram & Reddit using LLaMA 3 and HDBSCAN clustering to uncover drug trafficking and illegal trade discussion patterns.",
+      "stack": [
+        "LLaMA 3",
+        "HDBSCAN",
+        "NLP",
+        "Python",
+        "Telegram API",
+        "Reddit API"
+      ],
+      "url": "https://github.com/gowtham-dd/NeoVerse"
+    },
+    {
+      "title": "CVEE / NVDNLP",
+      "short": "NVDNLP",
+      "description": "Autonomous vulnerability enforcement agent continuously monitoring CVE disclosures from the National Vulnerability Database to score severity and remediate affected local services automatically.",
+      "stack": [
+        "Python",
+        "NLP",
+        "NVD API",
+        "n8n",
+        "XGBoost",
+        "SQLite"
+      ],
+      "url": "https://github.com/gowtham-dd/NVDNLP"
+    },
+    {
+      "title": "MLOps Pothole Detection",
+      "short": "Pathole MLOps",
+      "description": "Production-grade computer vision pipeline detecting road damage with YOLOv11, integrated with MLflow tracking, DagsHub model versioning, Docker containers, and automated CI/CD.",
+      "stack": [
+        "YOLOv11",
+        "MLflow",
+        "DagsHub",
+        "Docker",
+        "GitHub Actions",
+        "OpenCV"
+      ],
+      "url": "https://github.com/gowtham-dd/PatholeDetection"
+    }
+  ],
+  "stack": [
+    {
+      "name": "Agentic AI",
+      "items": [
+        "LangGraph",
+        "LangChain",
+        "LangSmith",
+        "LangServe",
+        "Groq",
+        "LLaMA 3",
+        "OpenAI"
+      ]
+    },
+    {
+      "name": "AI & Deep Learning",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "HuggingFace",
+        "YOLOv11",
+        "OpenCV",
+        "Deepgram",
+        "SHAP"
+      ]
+    },
+    {
+      "name": "MLOps & Cloud",
+      "items": [
+        "MLflow",
+        "DagsHub",
+        "Docker",
+        "GitHub Actions",
+        "FastAPI",
+        "AWS",
+        "n8n"
+      ]
+    },
+    {
+      "name": "Data & Databases",
+      "items": [
+        "Python",
+        "Pandas",
+        "PostgreSQL",
+        "Pinecone",
+        "FAISS",
+        "Qdrant",
+        "FHIR R4"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "AI Developer Intern",
+      "org": "Noukha Technologies",
+      "period": "Mar 2026 – Present",
+      "impact": "Engineered LangGraph multi-agent systems cutting latency by 32% and compute by 20%. Scaled FastAPI backend to 5,000+ daily production requests.",
+      "tag": "AGENTIC AI"
+    },
+    {
+      "role": "AI Developer Intern",
+      "org": "Pixel Cognitix",
+      "period": "Oct 2025 – Present",
+      "impact": "Built automated n8n + Python pipelines saving 15+ ops hrs/week. Ingested 2.5M rows of semi-anonymous web data for custom LLM training.",
+      "tag": "DATA & LLM"
+    },
+    {
+      "role": "App & AI Developer Intern",
+      "org": "Alesa AI (UK)",
+      "period": "Mar 2025 – Sep 2025",
+      "impact": "Scaled APIs for 2 flagship apps (Noulez & SnagNinja). Reduced SQL read times by 40% and improved daily active users by 22%.",
+      "tag": "FULL STACK"
+    },
+    {
+      "role": "App & AI Developer Intern",
+      "org": "Pyroguards (CBE)",
+      "period": "Jan 2025 – Mar 2025",
+      "impact": "Trained XGBoost model with 98.4% phishing detection accuracy on 1.2M URL signatures; containerized via Docker for 95ms response time.",
+      "tag": "CYBER AI"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+name: Generate profile graphics
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphics-${{ github.repository }}
+  cancel-in-progress: false
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - ".github/workflows/profile-graphics.yml"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate 3D contribution calendar
+        run: node scripts/iso-calendar.mjs ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate language and numbers card
+        run: node scripts/github-stats.mjs ${{ github.repository_owner }} dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate section cards
+        run: node scripts/cards.mjs dist
+
+      - name: Sync README tooltips with profile data
+        if: github.ref == 'refs/heads/main'
+        run: |
+          node scripts/readme.mjs
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Sync README with data/profile.json" README.md
+            git push
+          fi
+
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#C85A1A&color_dots=#EDE5DB,#F5D5BC,#ECA874,#D87030,#B05010
+            dist/snake-dark.svg?color_snake=#E87C3E&color_dots=#1C1510,#4A2010,#8A3F1E,#D06030,#F5A060
+
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
