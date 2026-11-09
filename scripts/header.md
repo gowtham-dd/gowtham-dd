@@ -1,25 +1,24 @@
-<!-- ═══════════════════════════════════════════════════════════
-     SECTION: HEADER  |  Color: #0D1117 bg · #00F5FF cyan · #FFD700 gold
-     ═══════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION: HEADER                                     ║
+     ║  Palette: #0C0A09 · #E87C3E · #F5A623              ║
+     ╚══════════════════════════════════════════════════════╝ -->
 
 <div align="center">
 
-<!-- Animated Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0A3D62,100:00F5FF&height=220&section=header&text=Gowtham%20D&fontSize=72&fontColor=FFD700&fontAlignY=38&desc=Data%20Scientist%20%7C%20MLOps%20Engineer%20%7C%20AI%20Builder&descSize=20&descAlignY=58&descColor=00F5FF&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0A09,40:1C1008,100:E87C3E&height=240&section=header&text=Gowtham%20D&fontSize=78&fontColor=F5A623&fontAlignY=40&fontAlign=50&desc=Data%20Scientist%20%E2%80%A2%20MLOps%20Engineer%20%E2%80%A2%20AI%20Builder&descSize=19&descAlignY=60&descColor=FFDDB0&animation=fadeIn&stroke=E87C3E&strokeWidth=1" />
 
-<!-- Profile Views Badge -->
-<a href="https://github.com/gowtham-dd">
-  <img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=👁️ Profile%20Views&color=00F5FF&style=for-the-badge&labelColor=0D1117" />
-</a>
-&nbsp;
-<a href="https://github.com/gowtham-dd?tab=followers">
-  <img src="https://img.shields.io/github/followers/gowtham-dd?label=Followers&style=for-the-badge&color=FFD700&labelColor=0D1117&logo=github" />
-</a>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&pause=1300&color=E87C3E&center=true&vCenter=true&width=720&lines=🚀+Building+AI+that+Solves+Real+Problems;🧠+LLMs+%7C+MLOps+%7C+Agentic+AI+%7C+NLP;⚡+Automating+Workflows+with+n8n+%2B+AI+Agents;📊+Turning+Raw+Data+into+Business+Value;💡+Learning+by+Building+—+Always." />
 
 <br/><br/>
 
-<!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00F5FF&center=true&vCenter=true&width=700&lines=🚀+Building+AI+that+Solves+Real+Problems;🧠+LLMs+%7C+MLOps+%7C+Agentic+AI+%7C+NLP;⚡+Automating+Workflows+with+n8n+%2B+AI+Agents;📊+Turning+Raw+Data+into+Business+Value;💡+Learning+by+Building+—+Always." />
+<a href="https://github.com/gowtham-dd"><img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=Profile+Views&color=E87C3E&style=flat-square&labelColor=1C1008" /></a>
+&nbsp;
+<a href="https://github.com/gowtham-dd?tab=followers"><img src="https://img.shields.io/github/followers/gowtham-dd?label=Followers&style=flat-square&color=F5A623&labelColor=1C1008&logo=github&logoColor=F5A623" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/Kaggle-Expert-E87C3E?style=flat-square&logo=kaggle&logoColor=white&labelColor=1C1008" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20to-Collaborate-F5A623?style=flat-square&logo=handshake&logoColor=white&labelColor=1C1008" />
 
 </div>
-

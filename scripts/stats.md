@@ -1,6 +1,8 @@
-<!-- ═══════════════════════════════════════════════════════════
-     SECTION: GITHUB STATS  |  Themed stats cards + activity
-     ═══════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION: GITHUB ANALYTICS                           ║
+     ║  All cards use custom orange/amber palette           ║
+     ║  Real-time data fetched from GitHub API              ║
+     ╚══════════════════════════════════════════════════════╝ -->
 
 <br/>
 
@@ -8,47 +10,46 @@
 
 ## 📊 GitHub Analytics
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0A3D62&height=3&section=header" width="80%"/>
-
-</div>
+<sub>Live stats · refreshed on every page load</sub>
 
 <br/>
 
-<div align="center">
+<!-- ROW 1: Overview + Profile Details wide card -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gowtham-dd&theme=github_dark" width="92%" />
 
-<!-- Stats + Languages Side by Side -->
-<img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F5FF&icon_color=FFD700&text_color=FFFFFF&border_color=00F5FF&border_radius=12&count_private=true&include_all_commits=true&hide_border=false" height="185"/>
+<br/><br/>
+
+<!-- ROW 2: Stats + Top Languages -->
+<img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&icon_color=F5A623&border_color=3A2010&border_radius=10&count_private=true&include_all_commits=true&rank_icon=github&hide_border=false" height="195"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF&border_color=FFD700&border_radius=12&hide_border=false" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&border_color=3A2010&border_radius=10&langs_count=8&hide=html,css&hide_border=false" height="195"/>
+
+<br/><br/>
+
+<!-- ROW 3: Productive Time + Commits -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gowtham-dd&theme=github_dark&utcOffset=5.5" width="45%"/>
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gowtham-dd&theme=github_dark" width="45%"/>
+
+<br/><br/>
+
+<!-- ROW 4: Streak -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&background=0C0A09&ring=E87C3E&fire=F5A623&currStreakLabel=F5A623&currStreakNum=FFDDB0&sideLabels=FFDDB0&sideNums=FFDDB0&dates=856040&border=3A2010&border_radius=10" width="70%"/>
+
+<br/><br/>
+
+<!-- ROW 5: Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&bg_color=0C0A09&color=F5A623&line=E87C3E&point=FFDDB0&area=true&area_color=E87C3E&border_radius=10&custom_title=🔥%20Contribution%20Heatmap&hide_border=false" width="92%"/>
+
+<br/><br/>
+
+<!-- ROW 6: Snake -->
+**🐍 Contributions, in snake form**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg" width="92%"/>
+</picture>
 
 </div>
-
-<br/>
-
-<!-- Streak Stats -->
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=tokyonight&background=0D1117&ring=00F5FF&fire=FFD700&currStreakLabel=00F5FF&sideLabels=FFFFFF&border=00F5FF&border_radius=12" width="70%"/>
-
-</div>
-
-<br/>
-
-<!-- Activity Graph -->
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&bg_color=0D1117&color=00F5FF&line=FFD700&point=FFFFFF&area=true&area_color=00F5FF&border_radius=12&custom_title=🔥%20Contribution%20Activity%20Graph&hide_border=false" width="92%"/>
-
-</div>
-
-<br/>
-
-<!-- Snake Contribution Animation -->
-<div align="center">
-
-**✨ Watch My Contributions Come Alive**
-
-<img src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg" alt="Snake animation" width="92%"/>
-
-</div>
-

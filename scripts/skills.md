@@ -1,6 +1,6 @@
-<!-- ═══════════════════════════════════════════════════════════
-     SECTION: TECH STACK  |  Grouped skill icons with categories
-     ═══════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION: TECH STACK                                 ║
+     ╚══════════════════════════════════════════════════════╝ -->
 
 <br/>
 
@@ -8,49 +8,48 @@
 
 ## ⚙️ Tech Arsenal
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0A3D62&height=3&section=header" width="80%"/>
+<br/>
+
+<!-- AI / ML / DL -->
+<img src="https://img.shields.io/badge/Python-0C0A09?style=for-the-badge&logo=python&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/TensorFlow-0C0A09?style=for-the-badge&logo=tensorflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/PyTorch-0C0A09?style=for-the-badge&logo=pytorch&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/HuggingFace-0C0A09?style=for-the-badge&logo=huggingface&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/LangChain-0C0A09?style=for-the-badge&logo=chainlink&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/OpenAI-0C0A09?style=for-the-badge&logo=openai&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/LLaMA-0C0A09?style=for-the-badge&logo=meta&logoColor=E87C3E&labelColor=1C1008" />
+
+<br/><br/>
+
+<!-- MLOps / DevOps -->
+<img src="https://img.shields.io/badge/MLflow-0C0A09?style=for-the-badge&logo=mlflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/DagsHub-0C0A09?style=for-the-badge&logo=dagsHub&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/DVC-0C0A09?style=for-the-badge&logo=dvc&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Docker-0C0A09?style=for-the-badge&logo=docker&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-0C0A09?style=for-the-badge&logo=githubactions&logoColor=F5A623&labelColor=1C1008" />
+
+<br/><br/>
+
+<!-- Data / Automation -->
+<img src="https://img.shields.io/badge/n8n-0C0A09?style=for-the-badge&logo=n8n&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Airflow-0C0A09?style=for-the-badge&logo=apacheairflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Pandas-0C0A09?style=for-the-badge&logo=pandas&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Streamlit-0C0A09?style=for-the-badge&logo=streamlit&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/FastAPI-0C0A09?style=for-the-badge&logo=fastapi&logoColor=E87C3E&labelColor=1C1008" />
+
+<br/><br/>
+
+<!-- DB / Cloud -->
+<img src="https://img.shields.io/badge/MySQL-0C0A09?style=for-the-badge&logo=mysql&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/MongoDB-0C0A09?style=for-the-badge&logo=mongodb&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/AWS-0C0A09?style=for-the-badge&logo=amazonaws&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/ChromaDB-0C0A09?style=for-the-badge&logo=databricks&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/FAISS-0C0A09?style=for-the-badge&logo=meta&logoColor=F5A623&labelColor=1C1008" />
+
+<br/><br/>
+
+<!-- Language proficiency bars via profile-summary-cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gowtham-dd&theme=github_dark&exclude=html,css,javascript" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gowtham-dd&theme=github_dark&exclude=html,css" width="32%"/>
 
 </div>
-
-<br/>
-
-<div align="center">
-
-### 🐍 Languages & Core
-<img src="https://skillicons.dev/icons?i=python,r,bash,sql&theme=dark" /><br/><br/>
-
-### 🤖 AI · ML · Deep Learning
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark" />
-<br/>
-<img src="https://img.shields.io/badge/Hugging%20Face-FFD700?style=for-the-badge&logo=huggingface&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/LangChain-00F5FF?style=for-the-badge&logo=chainlink&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/LLaMA-00C9A7?style=for-the-badge&logo=meta&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-<br/><br/>
-
-### 🔁 MLOps · DevOps · CI/CD
-<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions&theme=dark" />
-<br/>
-<img src="https://img.shields.io/badge/MLflow-00F5FF?style=for-the-badge&logo=mlflow&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/DagsHub-FFD700?style=for-the-badge&logo=dagsHub&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/DVC-945DD6?style=for-the-badge&logo=dvc&logoColor=white" />
-<img src="https://img.shields.io/badge/Weights%20%26%20Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=0D1117" />
-<br/><br/>
-
-### ⚡ Automation · Data · Tools
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-<img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-<br/><br/>
-
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,aws&theme=dark" />
-<br/>
-<img src="https://img.shields.io/badge/ChromaDB-00F5FF?style=for-the-badge&logo=databricks&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/FAISS-FFD700?style=for-the-badge&logo=meta&logoColor=0D1117" />
-
-</div>
-

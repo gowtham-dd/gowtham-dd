@@ -1,73 +1,67 @@
-<!-- ═══════════════════════════════════════════════════════════
-     SECTION: CONNECT  |  Social links + fun facts + footer
-     ═══════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════╗
+     ║  SECTION: CONNECT + FOOTER                           ║
+     ╚══════════════════════════════════════════════════════╝ -->
 
 <br/>
 
 <div align="center">
 
-## 🌐 Let's Build Together
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D1117,100:0A3D62&height=3&section=header" width="80%"/>
-
-</div>
+## 🌐 Find Me Online
 
 <br/>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gowtham-duraipandi/)
+<a href="https://www.linkedin.com/in/gowtham-duraipandi/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Explore%20Now-00F5FF?style=for-the-badge&logo=vercel&logoColor=0D1117)](https://gowthamdportfolio.vercel.app/)
+<a href="https://gowthamdportfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-E87C3E?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Kaggle](https://img.shields.io/badge/Kaggle-Expert-FFD700?style=for-the-badge&logo=kaggle&logoColor=0D1117)](https://www.kaggle.com/gowthamdd)
+<a href="https://www.kaggle.com/gowthamdd">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0C0A09" />
+</a>
 
-<br/>
+<br/><br/>
 
-[![Medium](https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@gowthamd997)
+<a href="https://medium.com/@gowthamd997">
+  <img src="https://img.shields.io/badge/Medium-F5A623?style=for-the-badge&logo=medium&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/d_._gowtham/)
+<a href="https://www.instagram.com/d_._gowtham/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gowthamd997@gmail.com)
+<a href="mailto:gowthamd997@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0C0A09" />
+</a>
 
-</div>
-
-<br/>
+<br/><br/>
 
 ---
-
-<!-- Fun Facts Section -->
-<div align="center">
 
 ### ⚡ Brain Bytes
 
-</div>
+<br/>
 
-<table align="center" width="80%">
-<tr>
-<td align="center" width="33%">🤖<br/><b>AI Experimenter</b><br/><sub>Always testing new models in the wild</sub></td>
-<td align="center" width="33%">⚡<br/><b>Workflow Automator</b><br/><sub>n8n + AI agents = new obsession</sub></td>
-<td align="center" width="33%">📊<br/><b>Data Storyteller</b><br/><sub>Dashboards that speak to anyone</sub></td>
-</tr>
-<tr>
-<td align="center">🧠<br/><b>LLM Tinkerer</b><br/><sub>Fine-tuning & prompting daily</sub></td>
-<td align="center">🏗️<br/><b>Builder Mindset</b><br/><sub>Learn by shipping real projects</sub></td>
-<td align="center">🌱<br/><b>Continuous Learner</b><br/><sub>GenAI landscape evolves fast—so do I</sub></td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/🤖_AI_Experimenter-always_testing_new_models-E87C3E?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/⚡_Workflow_Automator-n8n+AI_agents-F5A623?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/📊_Data_Storyteller-dashboards_that_speak-E87C3E?style=flat-square&labelColor=1C1008" />
 
 <br/>
+
+<img src="https://img.shields.io/badge/🧠_LLM_Tinkerer-fine--tuning_daily-F5A623?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/🏗️_Builder_Mindset-learn_by_shipping-E87C3E?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/🌱_Continuous_Learner-GenAI_evolves_fast-F5A623?style=flat-square&labelColor=1C1008" />
+
+<br/><br/>
 
 ---
 
-<!-- Footer Wave -->
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1500&color=FFD700&center=true&vCenter=true&width=700&lines=💬+%22AI+won't+replace+you.+A+person+using+AI+will.%22;🚀+Let's+build+the+future+together.;📬+Always+open+to+collaborate+%26+learn!" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=E87C3E&center=true&vCenter=true&width=700&lines=💬+%22AI+won't+replace+you.+A+person+using+AI+will.%22;🚀+Let's+build+the+future+together.;📬+Always+open+to+collaborate+%26+learn!" />
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:0A3D62,100:0D1117&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E87C3E,50:1C1008,100:0C0A09&height=120&section=footer"/>
 
 </div>
-

@@ -1,35 +1,28 @@
-<!-- ╔══════════════════════════════════════════════════════════════════╗
-     ║           GOWTHAM D — GITHUB PROFILE README                      ║
-     ║  🎨 Color Palette: #0D1117 · #00F5FF · #FFD700                   ║
-     ║  📁 Sections are modular — edit in /scripts/*.md                 ║
-     ║  🗂️ Structure:                                                    ║
-     ║     scripts/header.md        → Animated banner + typing SVG      ║
-     ║     scripts/about.md         → Identity card + quick stats       ║
-     ║     scripts/skills.md        → Tech stack grouped by category    ║
-     ║     scripts/projects.md      → Showcase project cards            ║
-     ║     scripts/stats.md         → GitHub analytics + snake anim     ║
-     ║     scripts/achievements.md  → Trophies + badge wall             ║
-     ║     scripts/connect.md       → Social links + footer wave        ║
-     ╚══════════════════════════════════════════════════════════════════╝ -->
+<!-- ╔══════════════════════════════════════════════════════════════════════╗
+     ║  GOWTHAM D — GITHUB PROFILE README v2.0                            ║
+     ║  🎨 Palette : #0C0A09 (base) · #E87C3E (orange) · #F5A623 (amber) ║
+     ║  📁 Sections live in /scripts/ — edit there, copy here            ║
+     ╚══════════════════════════════════════════════════════════════════════╝ -->
 
-<!-- ░░░░░░░░░░░░░░░░░░  HEADER  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/header.md -->
+<!-- ░░░░░░░░░░░░  ① HEADER  scripts/header.md  ░░░░░░░░░░░░ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0A3D62,100:00F5FF&height=220&section=header&text=Gowtham%20D&fontSize=72&fontColor=FFD700&fontAlignY=38&desc=Data%20Scientist%20%7C%20MLOps%20Engineer%20%7C%20AI%20Builder&descSize=20&descAlignY=58&descColor=00F5FF&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0A09,40:1C1008,100:E87C3E&height=240&section=header&text=Gowtham%20D&fontSize=78&fontColor=F5A623&fontAlignY=40&fontAlign=50&desc=Data%20Scientist%20%E2%80%A2%20MLOps%20Engineer%20%E2%80%A2%20AI%20Builder&descSize=19&descAlignY=60&descColor=FFDDB0&animation=fadeIn" />
 
-<a href="https://github.com/gowtham-dd">
-  <img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=👁️ Profile%20Views&color=00F5FF&style=for-the-badge&labelColor=0D1117" />
-</a>
-&nbsp;
-<a href="https://github.com/gowtham-dd?tab=followers">
-  <img src="https://img.shields.io/github/followers/gowtham-dd?label=Followers&style=for-the-badge&color=FFD700&labelColor=0D1117&logo=github" />
-</a>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&pause=1300&color=E87C3E&center=true&vCenter=true&width=720&lines=🚀+Building+AI+that+Solves+Real+Problems;🧠+LLMs+%7C+MLOps+%7C+Agentic+AI+%7C+NLP;⚡+Automating+Workflows+with+n8n+%2B+AI+Agents;📊+Turning+Raw+Data+into+Business+Value;💡+Learning+by+Building+—+Always." />
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1200&color=00F5FF&center=true&vCenter=true&width=720&lines=🚀+Building+AI+that+Solves+Real+Problems;🧠+LLMs+%7C+MLOps+%7C+Agentic+AI+%7C+NLP;⚡+Automating+Workflows+with+n8n+%2B+AI+Agents;📊+Turning+Raw+Data+into+Business+Value;💡+Learning+by+Building+—+Always." />
+<a href="https://github.com/gowtham-dd"><img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=Profile+Views&color=E87C3E&style=flat-square&labelColor=1C1008" /></a>
+&nbsp;
+<a href="https://github.com/gowtham-dd?tab=followers"><img src="https://img.shields.io/github/followers/gowtham-dd?label=Followers&style=flat-square&color=F5A623&labelColor=1C1008&logo=github&logoColor=F5A623" /></a>
+&nbsp;
+<img src="https://img.shields.io/badge/Kaggle-Expert-E87C3E?style=flat-square&logo=kaggle&logoColor=white&labelColor=1C1008" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20to-Collaborate-F5A623?style=flat-square&logo=handshake&logoColor=white&labelColor=1C1008" />
 
 </div>
 
@@ -37,50 +30,49 @@
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░  ABOUT ME  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/about.md -->
+<!-- ░░░░░░░░░░░░  ② ABOUT  scripts/about.md  ░░░░░░░░░░░░ -->
 
-<div align="center">
+<table align="center" width="94%">
+<tr>
+<td width="52%" valign="top">
 
-## 🧬 `whoami`
-
-</div>
-
-<table align="center" width="90%">
-  <tr>
-    <td width="55%" valign="top">
+### 🧬 `whoami`
 
 ```yaml
-Name     : Gowtham D
-Role     : Data Scientist & AI Engineer
-Based in : India 🇮🇳
-Focus    :
-  - Generative AI & LLMs
-  - MLOps & Model Deployment
-  - Agentic AI & Automation
-  - Data Engineering & NLP
-Education: Data Science @ IITM (GUVI)
-Status   : Open to Collaborate ✅
-Motto    : "AI won't replace you.
-            A person using AI will."
+╭─────────────────────────────────╮
+│  name     : Gowtham D           │
+│  role     : AI & Data Engineer  │
+│  location : India 🇮🇳            │
+│  education: IIT Madras · GUVI   │
+│  focus    :                     │
+│    ◈ Generative AI & LLMs       │
+│    ◈ MLOps & Model Deployment   │
+│    ◈ Agentic AI & Automation    │
+│    ◈ Data Engineering & NLP     │
+│  status   : Open to Collab ✅   │
+╰─────────────────────────────────╯
 ```
 
 </td>
-    <td width="45%" align="center" valign="top">
+<td width="48%" align="center" valign="middle">
 
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="260" alt="coding gif" />
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="280" alt="AI coding gif" />
 
 </td>
-  </tr>
+</tr>
 </table>
 
 <br/>
 
 <div align="center">
 
-| 🎓 Education | 🧠 Core Expertise | ⚡ Current Obsession | 🏆 Platform |
-|:---:|:---:|:---:|:---:|
-| IIT Madras · GUVI | MLOps + GenAI | Agentic AI Workflows | Kaggle Expert |
+![](https://img.shields.io/badge/🎓_IIT_Madras_·_GUVI-Certified-E87C3E?style=for-the-badge&labelColor=1C1008)
+&nbsp;
+![](https://img.shields.io/badge/🏅_Kaggle-Expert-F5A623?style=for-the-badge&labelColor=1C1008)
+&nbsp;
+![](https://img.shields.io/badge/🤖_Agentic_AI-Builder-E87C3E?style=for-the-badge&labelColor=1C1008)
+&nbsp;
+![](https://img.shields.io/badge/⚡_n8n_+_LLMs-Automator-F5A623?style=for-the-badge&labelColor=1C1008)
 
 </div>
 
@@ -88,157 +80,52 @@ Motto    : "AI won't replace you.
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░  TECH STACK  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/skills.md -->
+<!-- ░░░░░░░░░░░░  ③ TECH STACK  scripts/skills.md  ░░░░░░░░░░░░ -->
 
 <div align="center">
 
 ## ⚙️ Tech Arsenal
 
-</div>
-
 <br/>
 
-<div align="center">
+<img src="https://img.shields.io/badge/Python-0C0A09?style=for-the-badge&logo=python&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/TensorFlow-0C0A09?style=for-the-badge&logo=tensorflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/PyTorch-0C0A09?style=for-the-badge&logo=pytorch&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/HuggingFace-0C0A09?style=for-the-badge&logo=huggingface&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/LangChain-0C0A09?style=for-the-badge&logo=chainlink&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/OpenAI-0C0A09?style=for-the-badge&logo=openai&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/LLaMA-0C0A09?style=for-the-badge&logo=meta&logoColor=E87C3E&labelColor=1C1008" />
 
-### 🐍 Languages & Core
-<img src="https://skillicons.dev/icons?i=python,r,bash&theme=dark" /><br/><br/>
-
-### 🤖 AI · ML · Deep Learning
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" />
-<br/><br/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD700?style=for-the-badge&logo=huggingface&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/LangChain-00F5FF?style=for-the-badge&logo=chainlink&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/LLaMA-00C9A7?style=for-the-badge&logo=meta&logoColor=white" />
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
 <br/><br/>
 
-### 🔁 MLOps · DevOps · CI/CD
-<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions&theme=dark" />
-<br/><br/>
-<img src="https://img.shields.io/badge/MLflow-00F5FF?style=for-the-badge&logo=mlflow&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/DagsHub-FFD700?style=for-the-badge&logo=dagsHub&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/DVC-945DD6?style=for-the-badge&logo=dvc&logoColor=white" />
-<img src="https://img.shields.io/badge/W%26B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=0D1117" />
-<br/><br/>
+<img src="https://img.shields.io/badge/MLflow-0C0A09?style=for-the-badge&logo=mlflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/DagsHub-0C0A09?style=for-the-badge&logo=dagsHub&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/DVC-0C0A09?style=for-the-badge&logo=dvc&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Docker-0C0A09?style=for-the-badge&logo=docker&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/GitHub_Actions-0C0A09?style=for-the-badge&logo=githubactions&logoColor=F5A623&labelColor=1C1008" />
 
-### ⚡ Automation · Analytics · Tools
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
-<img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 <br/><br/>
 
-### 🗄️ Databases & Cloud
-<img src="https://skillicons.dev/icons?i=mysql,mongodb,aws&theme=dark" />
+<img src="https://img.shields.io/badge/n8n-0C0A09?style=for-the-badge&logo=n8n&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Airflow-0C0A09?style=for-the-badge&logo=apacheairflow&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Pandas-0C0A09?style=for-the-badge&logo=pandas&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/Streamlit-0C0A09?style=for-the-badge&logo=streamlit&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/FastAPI-0C0A09?style=for-the-badge&logo=fastapi&logoColor=E87C3E&labelColor=1C1008" />
+
 <br/><br/>
-<img src="https://img.shields.io/badge/ChromaDB-00F5FF?style=for-the-badge&logo=databricks&logoColor=0D1117" />
-<img src="https://img.shields.io/badge/FAISS-FFD700?style=for-the-badge&logo=meta&logoColor=0D1117" />
 
-</div>
+<img src="https://img.shields.io/badge/MySQL-0C0A09?style=for-the-badge&logo=mysql&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/MongoDB-0C0A09?style=for-the-badge&logo=mongodb&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/AWS-0C0A09?style=for-the-badge&logo=amazonaws&logoColor=F5A623&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/ChromaDB-0C0A09?style=for-the-badge&logo=databricks&logoColor=E87C3E&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/FAISS-0C0A09?style=for-the-badge&logo=meta&logoColor=F5A623&labelColor=1C1008" />
 
-<br/>
+<br/><br/>
 
----
-
-<!-- ░░░░░░░░░░░░░░░░░░  PROJECTS  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/projects.md -->
-
-<div align="center">
-
-## 🚀 Signature Projects
-
-</div>
-
-<br/>
-
-<table align="center" width="92%">
-<tr>
-
-<td width="50%" valign="top">
-<div align="center">
-
-### 🧠 Agentic AI Pipeline
-![AI](https://img.shields.io/badge/LangChain-LLM%20Agent-00F5FF?style=flat-square&logo=chainlink&logoColor=0D1117)
-![Tools](https://img.shields.io/badge/Python-n8n-FFD700?style=flat-square&logo=python&logoColor=0D1117)
-
-> End-to-end autonomous agent that plans, searches, and executes multi-step tasks using LangChain + tool-calling LLMs. Integrated with n8n for real-world workflow automation.
-
-**🔑 Stack:** `LangChain` · `OpenAI` · `n8n` · `FastAPI` · `ChromaDB`
-
-[![Repo](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/gowtham-dd)
-
-</div>
-</td>
-
-<td width="50%" valign="top">
-<div align="center">
-
-### 📊 MLOps Production Pipeline
-![MLOps](https://img.shields.io/badge/MLflow-DagsHub-00F5FF?style=flat-square&logo=mlflow&logoColor=0D1117)
-![CI/CD](https://img.shields.io/badge/Docker-GitHub%20Actions-FFD700?style=flat-square&logo=docker&logoColor=0D1117)
-
-> Production-grade ML pipeline with automated training, experiment tracking, model versioning, and CI/CD deployment. Built for reproducibility at scale.
-
-**🔑 Stack:** `MLflow` · `DVC` · `DagsHub` · `Docker` · `GitHub Actions`
-
-[![Repo](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/gowtham-dd)
-
-</div>
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<table align="center" width="92%">
-<tr>
-
-<td width="50%" valign="top">
-<div align="center">
-
-### 💬 RAG Chatbot with LLMs
-![RAG](https://img.shields.io/badge/RAG-Retrieval%20Augmented-00F5FF?style=flat-square&logo=openai&logoColor=0D1117)
-![Vector](https://img.shields.io/badge/FAISS-ChromaDB-FFD700?style=flat-square&logoColor=0D1117)
-
-> Intelligent document Q&A system using Retrieval-Augmented Generation. Processes PDFs, ingests into a vector store, and answers with source grounding.
-
-**🔑 Stack:** `LLaMA` · `LangChain` · `FAISS` · `Streamlit` · `HuggingFace`
-
-[![Repo](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/gowtham-dd)
-
-</div>
-</td>
-
-<td width="50%" valign="top">
-<div align="center">
-
-### 📈 Data Analytics Dashboard
-![Dash](https://img.shields.io/badge/Streamlit-Plotly-00F5FF?style=flat-square&logo=streamlit&logoColor=0D1117)
-![ML](https://img.shields.io/badge/Pandas-EDA%20%2B%20ML-FFD700?style=flat-square&logo=pandas&logoColor=0D1117)
-
-> Interactive BI dashboard with real-time EDA, predictive analytics, and storytelling visualizations built for non-technical stakeholders.
-
-**🔑 Stack:** `Streamlit` · `Plotly` · `Pandas` · `Scikit-Learn` · `SQL`
-
-[![Repo](https://img.shields.io/badge/View%20Repo-0D1117?style=for-the-badge&logo=github&logoColor=00F5FF)](https://github.com/gowtham-dd)
-
-</div>
-</td>
-
-</tr>
-</table>
-
-<br/>
-
-<div align="center">
-
-[![All Projects](https://img.shields.io/badge/🗂️%20View%20All%20Projects-FFD700?style=for-the-badge&logo=github&logoColor=0D1117)](https://github.com/gowtham-dd?tab=repositories)
+<!-- Real language usage from GitHub API -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=gowtham-dd&theme=github_dark&exclude=html,css,javascript" width="32%"/>
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/🌐%20Live%20Portfolio-00F5FF?style=for-the-badge&logo=vercel&logoColor=0D1117)](https://gowthamdportfolio.vercel.app/)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=gowtham-dd&theme=github_dark&exclude=html,css" width="32%"/>
 
 </div>
 
@@ -246,89 +133,98 @@ Motto    : "AI won't replace you.
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░  GITHUB STATS  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/stats.md -->
+<!-- ░░░░░░░░░░░░  ④ PINNED PROJECTS  scripts/projects.md  ░░░░░░░░░░░░ -->
+
+<div align="center">
+
+## 📌 Pinned Projects
+
+<sub>Live cards fetched directly from GitHub — always up to date</sub>
+
+<br/>
+
+<a href="https://github.com/gowtham-dd/FHIRFlow">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gowtham-dd&repo=FHIRFlow&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&icon_color=F5A623&border_color=3A2010&border_radius=10" height="150"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/gowtham-dd/NeoVerse">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gowtham-dd&repo=NeoVerse&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&icon_color=F5A623&border_color=3A2010&border_radius=10" height="150"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/gowtham-dd/DroneBasedTaxation">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gowtham-dd&repo=DroneBasedTaxation&bg_color=0C0A09&title_color=F5A623&text_color=FFDDB0&icon_color=E87C3E&border_color=3A2010&border_radius=10" height="150"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/gowtham-dd/NVDNLP">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gowtham-dd&repo=NVDNLP&bg_color=0C0A09&title_color=F5A623&text_color=FFDDB0&icon_color=E87C3E&border_color=3A2010&border_radius=10" height="150"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/gowtham-dd/literate-spork">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=gowtham-dd&repo=literate-spork&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&icon_color=F5A623&border_color=3A2010&border_radius=10" height="150"/>
+</a>
+
+<br/><br/>
+
+[![View All Repos](https://img.shields.io/badge/🗂%20View%20All%20Repositories-E87C3E?style=for-the-badge&logo=github&logoColor=white&labelColor=1C1008)](https://github.com/gowtham-dd?tab=repositories)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/🌐%20Live%20Portfolio-F5A623?style=for-the-badge&logo=vercel&logoColor=white&labelColor=1C1008)](https://gowthamdportfolio.vercel.app/)
+
+</div>
+
+<br/>
+
+---
+
+<!-- ░░░░░░░░░░░░  ⑤ GITHUB ANALYTICS  scripts/stats.md  ░░░░░░░░░░░░ -->
 
 <div align="center">
 
 ## 📊 GitHub Analytics
 
-</div>
+<sub>Live stats · refreshed on every page load</sub>
 
 <br/>
 
-<div align="center">
+<!-- Wide profile summary bar -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=gowtham-dd&theme=github_dark" width="92%" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&theme=tokyonight&bg_color=0D1117&title_color=00F5FF&icon_color=FFD700&text_color=FFFFFF&border_color=00F5FF&border_radius=12&count_private=true&include_all_commits=true" height="185"/>
+<br/><br/>
+
+<!-- Stats + Top Languages -->
+<img src="https://github-readme-stats.vercel.app/api?username=gowtham-dd&show_icons=true&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&icon_color=F5A623&border_color=3A2010&border_radius=10&count_private=true&include_all_commits=true&rank_icon=github" height="195"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&theme=tokyonight&bg_color=0D1117&title_color=00F5FF&text_color=FFFFFF&border_color=FFD700&border_radius=12" height="185"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowtham-dd&layout=compact&bg_color=0C0A09&title_color=E87C3E&text_color=FFDDB0&border_color=3A2010&border_radius=10&langs_count=8&hide=html,css" height="195"/>
 
-</div>
+<br/><br/>
 
-<br/>
+<!-- Productive time + Stats summary cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=gowtham-dd&theme=github_dark&utcOffset=5.5" width="45%"/>
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=gowtham-dd&theme=github_dark" width="45%"/>
 
-<div align="center">
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&theme=tokyonight&background=0D1117&ring=00F5FF&fire=FFD700&currStreakLabel=00F5FF&sideLabels=FFFFFF&border=00F5FF&border_radius=12" width="68%"/>
+<!-- Streak -->
+<img src="https://github-readme-streak-stats.herokuapp.com?user=gowtham-dd&background=0C0A09&ring=E87C3E&fire=F5A623&currStreakLabel=F5A623&currStreakNum=FFDDB0&sideLabels=FFDDB0&sideNums=FFDDB0&dates=856040&border=3A2010&border_radius=10" width="70%"/>
 
-</div>
+<br/><br/>
 
-<br/>
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&bg_color=0C0A09&color=F5A623&line=E87C3E&point=FFDDB0&area=true&area_color=E87C3E&border_radius=10&custom_title=🔥%20Contribution%20Heatmap" width="92%"/>
 
-<div align="center">
+<br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gowtham-dd&bg_color=0D1117&color=00F5FF&line=FFD700&point=FFFFFF&area=true&area_color=00F5FF&border_radius=12&custom_title=🔥%20Contribution%20Activity%20Graph" width="92%"/>
+**🐍 Contributions, in snake form**
 
-</div>
-
-<br/>
-
-<div align="center">
-
-**🐍 My Contributions, Devoured**
-
-<img src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg" alt="Snake animation" width="92%"/>
-
-</div>
-
-<br/>
-
----
-
-<!-- ░░░░░░░░░░░░░░░░░░  ACHIEVEMENTS  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/achievements.md -->
-
-<div align="center">
-
-## 🏆 Achievements & Recognition
-
-<img src="https://github-profile-trophy.vercel.app/?username=gowtham-dd&theme=tokyonight&margin-w=12&margin-h=12&row=2&column=4&no-bg=true" alt="Trophies" />
-
-</div>
-
-<br/>
-
-<div align="center">
-
-| 🥇 Achievement | 📌 Details | 🌟 Status |
-|:---|:---|:---:|
-| 🤝 Open Source Contributor | LITERATE-SPORK GitHub Project | ✅ Active |
-| 🏅 Kaggle Expert | Competitive ML Notebooks | 🏆 Expert |
-| 🎓 IIT Madras Certified | Data Science Program | ✅ Completed |
-| 🚀 MLOps Practitioner | End-to-end production pipelines | 🔄 Ongoing |
-| 🤖 Agentic AI Builder | LLM-powered autonomous agents | 🔥 Live |
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/🤝%20LITERATE--SPORK-Contributor-00F5FF?style=for-the-badge&logo=github&logoColor=0D1117" />
-&nbsp;
-<img src="https://img.shields.io/badge/🏅%20Kaggle-Expert-FFD700?style=for-the-badge&logo=kaggle&logoColor=0D1117" />
-&nbsp;
-<img src="https://img.shields.io/badge/🎓%20IIT%20Madras-Certified-00C9A7?style=for-the-badge&logoColor=white" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/github-contribution-grid-snake.svg" width="92%"/>
+</picture>
 
 </div>
 
@@ -336,64 +232,62 @@ Motto    : "AI won't replace you.
 
 ---
 
-<!-- ░░░░░░░░░░░░░░░░░░  CONNECT  ░░░░░░░░░░░░░░░░░░ -->
-<!-- imported from: scripts/connect.md -->
+<!-- ░░░░░░░░░░░░  ⑥ CONNECT + FOOTER  scripts/connect.md  ░░░░░░░░░░░░ -->
 
 <div align="center">
 
-## 🌐 Let's Build Together
+## 🌐 Find Me Online
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gowtham-duraipandi/)
+<a href="https://www.linkedin.com/in/gowtham-duraipandi/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Explore%20Now-00F5FF?style=for-the-badge&logo=vercel&logoColor=0D1117)](https://gowthamdportfolio.vercel.app/)
+<a href="https://gowthamdportfolio.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-E87C3E?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Kaggle](https://img.shields.io/badge/Kaggle-Expert-FFD700?style=for-the-badge&logo=kaggle&logoColor=0D1117)](https://www.kaggle.com/gowthamdd)
+<a href="https://www.kaggle.com/gowthamdd">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=0C0A09" />
+</a>
 
-<br/>
+<br/><br/>
 
-[![Medium](https://img.shields.io/badge/Medium-Read%20Articles-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@gowthamd997)
+<a href="https://medium.com/@gowthamd997">
+  <img src="https://img.shields.io/badge/Medium-F5A623?style=for-the-badge&logo=medium&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/d_._gowtham/)
+<a href="https://www.instagram.com/d_._gowtham/">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0C0A09" />
+</a>
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gowthamd997@gmail.com)
+<a href="mailto:gowthamd997@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0C0A09" />
+</a>
 
-</div>
-
-<br/>
+<br/><br/>
 
 ---
 
-<div align="center">
-
-### ⚡ Brain Bytes
-
-</div>
-
-<table align="center" width="80%">
-<tr>
-<td align="center" width="33%">🤖<br/><b>AI Experimenter</b><br/><sub>Always testing new models in the wild</sub></td>
-<td align="center" width="33%">⚡<br/><b>Workflow Automator</b><br/><sub>n8n + AI agents = new obsession</sub></td>
-<td align="center" width="33%">📊<br/><b>Data Storyteller</b><br/><sub>Dashboards that speak to anyone</sub></td>
-</tr>
-<tr>
-<td align="center">🧠<br/><b>LLM Tinkerer</b><br/><sub>Fine-tuning & prompting daily</sub></td>
-<td align="center">🏗️<br/><b>Builder Mindset</b><br/><sub>Learn by shipping real projects</sub></td>
-<td align="center">🌱<br/><b>Continuous Learner</b><br/><sub>GenAI landscape evolves fast—so do I</sub></td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/🤖_AI_Experimenter-always_testing_new_models-E87C3E?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/⚡_Workflow_Automator-n8n+AI_agents-F5A623?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/📊_Data_Storyteller-dashboards_that_speak-E87C3E?style=flat-square&labelColor=1C1008" />
 
 <br/>
+
+<img src="https://img.shields.io/badge/🧠_LLM_Tinkerer-fine--tuning_daily-F5A623?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/🏗️_Builder_Mindset-learn_by_shipping-E87C3E?style=flat-square&labelColor=1C1008" />
+<img src="https://img.shields.io/badge/🌱_Continuous_Learner-GenAI_evolves_fast-F5A623?style=flat-square&labelColor=1C1008" />
+
+<br/><br/>
 
 ---
 
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&pause=1500&color=FFD700&center=true&vCenter=true&width=700&lines=💬+%22AI+won't+replace+you.+A+person+using+AI+will.%22;🚀+Let's+build+the+future+together.;📬+Always+open+to+collaborate+%26+learn!" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=E87C3E&center=true&vCenter=true&width=700&lines=💬+%22AI+won't+replace+you.+A+person+using+AI+will.%22;🚀+Let's+build+the+future+together.;📬+Always+open+to+collaborate+%26+learn!" />
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,50:0A3D62,100:0D1117&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E87C3E,50:1C1008,100:0C0A09&height=120&section=footer"/>
 
 </div>
