@@ -1,0 +1,640 @@
+{
+  "personal": {
+    "name": "Gowtham D",
+    "title": "AI Engineer",
+    "tagline": "I build AI systems that actually ship.",
+    "description": "From LangGraph agents to MLOps pipelines — I transform data, models, and ideas into production-grade intelligent systems. Currently open to roles in Agentic AI and ML Engineering.",
+    "email": "gowthamd997@gmail.com",
+    "location": "India",
+    "available": true,
+    "avatar": "https://avatars.githubusercontent.com/u/158311426?v=4",
+    "resume": "https://drive.google.com/drive/folders/1y9U7M3kAHI-l3dXBDrwxpOjD9ULjhPvZ?usp=sharing",
+    "socials": {
+      "github": "https://github.com/gowtham-dd",
+      "linkedin": "https://www.linkedin.com/in/gowtham-duraipandi",
+      "kaggle": "https://www.kaggle.com/gowthamdd",
+      "guvi": "https://www.guvi.in/gowthamd99788046",
+      "instagram": "https://www.instagram.com/d_._gowtham/",
+      "medium": "https://medium.com/@gowthamd997"
+    },
+    "stats": {
+      "students_mentored": 50,
+      "projects_shipped": 12,
+      "hackathon_wins": 3,
+      "github_repos": 77
+    }
+  },
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "ai_ml": [
+      "LangGraph",
+      "LangChain",
+      "LangSmith",
+      "LangServe",
+      "LLaMA 3",
+      "Groq",
+      "HuggingFace",
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "OpenCV",
+      "YOLOv11",
+      "Deepgram"
+    ],
+    "mlops": [
+      "MLflow",
+      "DagsHub",
+      "Docker",
+      "GitHub Actions",
+      "n8n",
+      "FastAPI",
+      "Flask"
+    ],
+    "data": [
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Plotly"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "SQLite",
+      "Pinecone",
+      "FAISS",
+      "Qdrant",
+      "AWS S3",
+      "FHIR R4"
+    ],
+    "cloud": [
+      "AWS",
+      "Azure"
+    ]
+  },
+  "projects": [
+    {
+      "id": "fhirflow",
+      "title": "FHIRFlow",
+      "subtitle": "Healthcare Claims Multi-Agent System",
+      "year": 2026,
+      "category": "Agentic AI",
+      "tags": [
+        "LangGraph",
+        "Groq",
+        "Pinecone",
+        "Deepgram",
+        "FHIR",
+        "Python"
+      ],
+      "description": "An end-to-end AI-powered pipeline for automating CPT/HCPCS medical claim validation. The system detects policy changes, updates patient records via FHIR, validates claims against live payer policies, routes approved claims for EDI 837 submission, and conducts real AI voice calls with patients for rejected claims.",
+      "impact": "Automates end-to-end insurance claims — from patient visit to payer payment",
+      "tech_stack": [
+        "LangGraph",
+        "Groq Llama 3.1",
+        "Pinecone",
+        "Deepgram TTS/STT",
+        "Flask",
+        "FHIR R4",
+        "SQLite"
+      ],
+      "github": "https://github.com/gowtham-dd/FHIRFlow",
+      "demo": null,
+      "featured": true,
+      "architecture": "5-agent LangGraph pipeline: Policy Detector → FHIR Updater → Claims Validator → Approval Router → Voice Agent",
+      "color": "#00d4ff",
+      "image": "/static/assets/images/fhirflow.webp",
+      "playground": "fhirflow"
+    },
+    {
+      "id": "pr-reviewer",
+      "title": "PR Reviewer Agent",
+      "subtitle": "Autonomous PR Review & CI/CD Deployment Agent",
+      "year": 2026,
+      "category": "Agentic AI",
+      "tags": [
+        "Agentic AI",
+        "GitHub App",
+        "LangGraph",
+        "FastAPI",
+        "Docker",
+        "CI/CD"
+      ],
+      "description": "An autonomous AI agent designed to streamline development workflows by acting as a virtual team member on GitHub. It automatically intercepts pull requests, reviews code diffs for bugs, architectural design violations, and styling rules, runs test suites, generates code patches, and automatically redeploys CI/CD pipelines.",
+      "impact": "Reviews pull requests, runs automated test suites, and auto-deploys CI/CD pipelines with bug patches",
+      "tech_stack": [
+        "LangGraph",
+        "GitHub App Webhooks",
+        "FastAPI",
+        "Docker",
+        "Pytest",
+        "GitHub Actions"
+      ],
+      "github": "https://github.com/gowtham-dd/PR-Reviewer-Agent",
+      "demo": "https://github.com/apps/pullrequest-reviwer",
+      "featured": false,
+      "color": "#00d4ff",
+      "image": "/static/assets/images/pr_reviewer.webp",
+      "playground": "pr-reviewer"
+    },
+    {
+      "id": "neoverse",
+      "title": "NEXUS AI / NeoVerse",
+      "subtitle": "Drug Trafficking Detection Multi-Agent System",
+      "year": 2025,
+      "category": "Generative AI",
+      "tags": [
+        "LLaMA 3",
+        "NLP",
+        "HDBSCAN",
+        "Telegram",
+        "Reddit",
+        "Multi-Agent"
+      ],
+      "description": "An AI-powered multi-agent system that monitors platforms like Telegram, Reddit, and Instagram in real time to detect and classify drug-related content. Uses NLP and HDBSCAN clustering to identify drug trafficking discussion patterns.",
+      "impact": "Real-time cross-platform drug trafficking detection at scale",
+      "tech_stack": [
+        "LLaMA 3",
+        "HDBSCAN",
+        "NLP",
+        "Python",
+        "Telegram API",
+        "Reddit API"
+      ],
+      "github": "https://github.com/gowtham-dd/NeoVerse",
+      "demo": null,
+      "featured": true,
+      "color": "#a855f7",
+      "image": "/static/assets/images/neoverse.webp",
+      "playground": "neoverse"
+    },
+    {
+      "id": "nvdnlp",
+      "title": "CVEE / NVDNLP",
+      "subtitle": "Autonomous Vulnerability Enforcement Agent",
+      "year": 2025,
+      "category": "NLP + Security",
+      "tags": [
+        "NLP",
+        "Ensemble",
+        "Security",
+        "Automation",
+        "Python",
+        "National Vulnerable Database",
+        "XGBoost"
+      ],
+      "description": "A local desktop security agent that continuously monitors known vulnerabilities on a system from the National Vulnerability Database and enforces remediation actions automatically — no alerts, no dashboards, no human delay. Uses NLP to analyze CVE severity scores and automatically stops affected services.",
+      "impact": "Eliminates human delay in vulnerability response — monitors and remediates in real time",
+      "tech_stack": [
+        "Python",
+        "NLP",
+        "NVD API",
+        "n8n",
+        "SQLite"
+      ],
+      "github": "https://github.com/gowtham-dd/NVDNLP",
+      "demo": null,
+      "featured": true,
+      "color": "#ff6b35",
+      "image": "/static/assets/images/nvdnlp.webp",
+      "playground": "nvdnlp"
+    },
+    {
+      "id": "pothole",
+      "title": "MLOps Pothole Detection",
+      "subtitle": "Computer Vision + MLOps Pipeline",
+      "year": 2025,
+      "category": "Computer Vision",
+      "tags": [
+        "Computer Vision",
+        "MLOps",
+        "MLflow",
+        "DagsHub",
+        "Deep Learning",
+        "YOLOv11"
+      ],
+      "description": "An AI-based computer vision project that detects potholes from road images or video using deep learning, with complete MLOps pipelines for model training, versioning, CI/CD, and scalable deployment for automated road damage monitoring.",
+      "impact": "Scalable automated road damage monitoring with full MLOps lifecycle",
+      "tech_stack": [
+        "YOLOv11",
+        "MLflow",
+        "DagsHub",
+        "GitHub Actions",
+        "Docker",
+        "Python"
+      ],
+      "github": "https://github.com/gowtham-dd/PatholeDetection",
+      "demo": null,
+      "featured": false,
+      "color": "#22c55e",
+      "image": "/static/assets/images/pothole.webp",
+      "playground": "pothole"
+    },
+    {
+      "id": "weapon-detection",
+      "title": "Weapon Detection Agent",
+      "subtitle": "AI Surveillance with Intelligent Decision Making",
+      "year": 2025,
+      "category": "Computer Vision",
+      "tags": [
+        "YOLOv11",
+        "LLaMA 3",
+        "Computer Vision",
+        "Real-time",
+        "Surveillance"
+      ],
+      "description": "An AI-powered surveillance system that identifies weapons and potential threats in real time using YOLOv11 for object detection and Llama 3 as an intelligent decision-making layer to classify threat level and trigger appropriate responses.",
+      "impact": "Real-time threat classification with intelligent escalation logic",
+      "tech_stack": [
+        "YOLOv11",
+        "LLaMA 3",
+        "Python",
+        "OpenCV"
+      ],
+      "github": "https://github.com/gowtham-dd/WeaponDetectionAgent",
+      "demo": null,
+      "featured": false,
+      "color": "#ef4444",
+      "image": "/static/assets/images/weapon.webp",
+      "playground": "weapon"
+    },
+    {
+      "id": "polyps",
+      "title": "Polyp Segmentation",
+      "subtitle": "Medical Imaging Deep Learning",
+      "year": 2025,
+      "category": "Computer Vision",
+      "tags": [
+        "Deep Learning",
+        "Medical Imaging",
+        "Segmentation",
+        "PyTorch"
+      ],
+      "description": "Uses deep learning to automatically detect and segment polyps in colonoscopy medical images, helping improve early detection and diagnosis accuracy.",
+      "impact": "Improved early polyp detection for clinical diagnosis support",
+      "tech_stack": [
+        "PyTorch",
+        "OpenCV",
+        "Jupyter",
+        "Python"
+      ],
+      "github": "https://github.com/gowtham-dd/PolypsSegmentation",
+      "demo": null,
+      "featured": false,
+      "color": "#f59e0b",
+      "image": "/static/assets/images/polyps.webp",
+      "playground": "polyps"
+    },
+    {
+      "id": "literate-spork",
+      "title": "Literate Spork",
+      "subtitle": "Open-Source GitHub Learning Community",
+      "year": 2024,
+      "category": "Community",
+      "tags": [
+        "Open Source",
+        "Education",
+        "GitHub",
+        "Data Science",
+        "GenAI"
+      ],
+      "description": "A GitHub-based learning community that mentors 50+ students through 20+ hands-on projects in Data Science and Generative AI, fostering real-world skills through open-source, project-driven learning.",
+      "impact": "50+ students mentored · 20+ hands-on projects · 4 stars on GitHub",
+      "tech_stack": [
+        "GitHub",
+        "Python",
+        "Jupyter",
+        "Open Source"
+      ],
+      "github": "https://github.com/gowtham-dd/literate-spork",
+      "demo": null,
+      "featured": false,
+      "color": "#06b6d4",
+      "image": "/static/assets/images/spork.webp",
+      "playground": "spork"
+    },
+    {
+      "id": "dnaseq-mlops",
+      "title": "DNASeq MLOps",
+      "subtitle": "DNA Sequence Classification Pipeline",
+      "year": 2025,
+      "category": "ML & DL",
+      "tags": [
+        "Machine Learning",
+        "Bioinformatics",
+        "MLOps",
+        "DNA",
+        "Classification"
+      ],
+      "description": "An MLOps-powered pipeline that analyzes DNA sequences to classify whether a given sequence belongs to bacteria or not. Includes data preprocessing, feature extraction from genomic sequences, model training, and automated deployment.",
+      "impact": "Automates biological sequence classification with scalable MLOps pipelines",
+      "tech_stack": [
+        "Python",
+        "Scikit-learn",
+        "MLflow",
+        "Docker",
+        "Pandas"
+      ],
+      "github": "https://github.com/gowtham-dd/DNAseqMLOPS",
+      "demo": null,
+      "featured": false,
+      "color": "#3b82f6",
+      "image": "/static/assets/images/dnaseq.webp",
+      "playground": "dnaseq"
+    },
+    {
+      "id": "kidney-disease",
+      "title": "Kidney Disease Prediction",
+      "subtitle": "Deep Learning Medical Diagnosis System",
+      "year": 2025,
+      "category": "ML & DL",
+      "tags": [
+        "Deep Learning",
+        "CNN",
+        "Medical AI",
+        "Healthcare",
+        "MLOps"
+      ],
+      "description": "A deep learning-based system that predicts kidney disease using CNN models with high accuracy (~99%). Built with a complete MLOps pipeline including training, evaluation, and deployment for real-world clinical usage.",
+      "impact": "High-accuracy medical diagnosis support system using deep learning",
+      "tech_stack": [
+        "TensorFlow",
+        "CNN",
+        "MLflow",
+        "Docker",
+        "Python"
+      ],
+      "github": "https://github.com/gowtham-dd/KidneyDiseaseMLOPS",
+      "demo": null,
+      "featured": false,
+      "color": "#10b981",
+      "image": "/static/assets/images/kidney.webp",
+      "playground": "kidney"
+    },
+    {
+      "id": "codecure-ai",
+      "title": "CodeCure AI",
+      "subtitle": "Molecular Toxicity Prediction System",
+      "year": 2026,
+      "category": "ML & DL",
+      "tags": [
+        "MLOps",
+        "Deep Learning",
+        "Chemistry AI",
+        "SHAP",
+        "Explainability"
+      ],
+      "description": "An MLOps-based molecular toxicity prediction system that identifies toxic properties in chemical compounds. Uses explainable AI (SHAP) to provide feature-level contribution insights for each prediction.",
+      "impact": "Improves drug safety analysis with explainable toxicity prediction",
+      "tech_stack": [
+        "PyTorch",
+        "SHAP",
+        "MLflow",
+        "Python",
+        "Scikit-learn"
+      ],
+      "github": "https://github.com/gowtham-dd/CodeCureAI26",
+      "demo": null,
+      "featured": false,
+      "color": "#8b5cf6",
+      "image": "/static/assets/images/codecure.webp",
+      "playground": "codecure"
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "hacknext26",
+      "title": "HackNext'26 Series 1.0 @ SNS College of Technology",
+      "result": "1st Prize",
+      "project": "17-Agent Healthcare Claim Orchestration",
+      "description": "Built a 17-agent orchestration system for hospitals that reduces patient wait time and panic in medical claims while reducing hospital claim rejection rates by 35%.",
+      "year": 2026,
+      "icon": "🏆",
+      "coverImage": "/static/assets/images/hacknext26_cover.jpg",
+      "certificateImage": "/static/assets/images/hacknext26_proof.jpg",
+      "image": "/static/assets/images/hacknext26_cover.jpg"
+    },
+    {
+      "id": "icaitica26",
+      "title": "ICAITICA 2026 International Conference",
+      "result": "Best Paper Award",
+      "project": "Drug Trafficking Detection Agent",
+      "description": "Presented research on an AI agent detecting drug trafficking activities on Telegram and Reddit platforms.",
+      "year": 2026,
+      "icon": "📄",
+      "image": "/static/assets/images/best_paper_proof.jpg"
+    },
+    {
+      "id": "chessskasc26",
+      "title": "Chess Gold @ SKASC Sports Meet 2026",
+      "result": "Gold Medal",
+      "project": "Chess Championship",
+      "description": "Secured the first place and gold medal in the chess tournament representing Yaayu house at Sri Krishna Arts and Science College.",
+      "year": 2026,
+      "icon": "🥇",
+      "image": "/static/assets/images/chess_gold_proof.jpg"
+    },
+    {
+      "id": "hackappsters26",
+      "title": "HackAppsters L&T Edutech Hackathon",
+      "result": "2nd Place",
+      "project": "Chest Radiogram Disease Classifier",
+      "description": "Built a deep learning-based medical imaging model to classify 10+ chest diseases from radiograms with high accuracy.",
+      "year": 2026,
+      "icon": "🥈",
+      "image": "/static/assets/images/hackappsters_proof.jpg"
+    },
+    {
+      "id": "hackvision26",
+      "title": "HackVision 2026",
+      "result": "3rd Prize",
+      "project": "Event Management Agent",
+      "description": "Developed a single intelligent agent capable of managing end-to-end event workflows including scheduling, coordination, and automation.",
+      "year": 2026,
+      "icon": "🥉"
+    },
+    {
+      "id": "neoverse26",
+      "title": "NeoVerse @ CIT 2026",
+      "result": "Finalist",
+      "project": "Illegal Trade Detection Agent",
+      "description": "Designed an AI agent to detect illegal activities like drug and human trafficking on semi-anonymous platforms such as Telegram and Reddit.",
+      "year": 2026,
+      "icon": "🕵️",
+      "image": "/static/assets/images/neoverse_proof.png"
+    },
+    {
+      "id": "datathon26",
+      "title": "Datathon @ CIT 2026",
+      "result": "Finalist",
+      "project": "FHIRFlow Multi-Agent System",
+      "description": "Built a multi-agent healthcare system that validates and corrects FHIR claims by comparing them with updated policies.",
+      "year": 2026,
+      "icon": "🤖",
+      "image": "/static/assets/images/datathon_cit_proof.jpg"
+    },
+    {
+      "id": "kaggleplayground",
+      "title": "Kaggle Playground Series",
+      "result": "Top 50 & Top 100 Finisher",
+      "project": "Machine Learning Competitions",
+      "description": "Achieved Top 100 rank twice and Top 50 once in Kaggle Playground Series by building high-performance machine learning models.",
+      "year": 2026,
+      "icon": "📊",
+      "image": "/static/assets/images/kaggle_playground_proof.jpg"
+    },
+    {
+      "id": "techsprint26",
+      "title": "Tech Sprint 2026 (GDG SKASC)",
+      "result": "Top 10",
+      "project": "NVDNLP Vulnerability Agent",
+      "description": "Built an autonomous agent that fetches vulnerabilities from NVD and applies backend fixes seamlessly without disrupting users.",
+      "year": 2026,
+      "icon": "🚀"
+    },
+    {
+      "id": "snstech24",
+      "title": "SNS Tech Hack 2024",
+      "result": "1st Prize",
+      "project": "EV Charging Booking App",
+      "description": "Developed a complete EV charging slot booking application within 24 hours during the hackathon.",
+      "year": 2024,
+      "icon": "⚡",
+      "image": "/static/assets/images/sns_tech_hack_proof.jpg"
+    },
+    {
+      "id": "techhack24",
+      "title": "Tech Hack '24",
+      "result": "1st Prize + Best Application Award",
+      "project": "SocioMedico App",
+      "description": "AI-based hospital app that connects doctors and patients with intelligent diagnosis and real-time clinical support.",
+      "year": 2024,
+      "icon": "🏆",
+      "image": "/static/assets/images/techhack_proof.jpg"
+    }
+  ],
+  "experience": [
+    {
+      "id": "ai-intern-noukha",
+      "role": "AI Developer Intern",
+      "org": "Noukha Technologies",
+      "period": "Mar 2026 - Present",
+      "type": "Internship",
+      "logo": "/static/assets/images/companies/noukha.png",
+      "description": "Orchestrated generative AI systems and multi-agent workflows, driving operational speed and semantic recall optimizations.",
+      "bullets": [
+        "Designed LangGraph multi-agent systems, reducing average LLM system latency by 32% and compute cost by 20%.",
+        "Engineered FastAPI backend serving up to 5,000+ daily production API requests with a 99.9% uptime rate.",
+        "Optimized semantic recall query paths in AWS S3 Vectors , improving search precision by 45%."
+      ],
+      "icon": "🤖"
+    },
+    {
+      "id": "ai-intern-pixelcognitix",
+      "role": "AI Developer Intern",
+      "org": "Pixel Cognitix",
+      "period": "Oct 2025 - Present",
+      "type": "Internship",
+      "logo": "/static/assets/images/companies/pixelcognitix.png",
+      "description": "Constructed high-speed web scraping, parsing, and classification agents to feed training pipelines for custom LLM models.",
+      "bullets": [
+        "Built automated ingest, parse, and classification scripts using n8n + Python, saving 15+ operational hours per week.",
+        "Ingested and normalized over 2.5 million rows of semi-anonymous web data to train local analytical networks.",
+        "Enhanced local threat classifier performance by 18% through targeted fine-tuning and system prompt engineering."
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "id": "app-ai-intern-alesa",
+      "role": "App & AI Developer Intern",
+      "org": "Alesa AI (UK)",
+      "period": "Mar 2025 - Sep 2025",
+      "type": "Internship",
+      "logo": "/static/assets/images/companies/alesa.png",
+      "description": "Collaborated with an international engineering team to build, optimize, and scale production backend systems for AI-powered mobile apps.",
+      "bullets": [
+        "Developed and scaled backend APIs for 2 flagship applications (Noulez & SnagNinja) serving thousands of users.",
+        "Optimized SQL indexing and database queries, achieving a 40% reduction in database read response times.",
+        "Integrated push notifications and localized scheduling loops that increased daily active users (DAUs) by 22%."
+      ],
+      "icon": "🌍"
+    },
+    {
+      "id": "app-ai-intern-pyroguards",
+      "role": "App & AI Developer Intern",
+      "org": "Pyroguards (CBE)",
+      "period": "Jan 2025 - Mar 2025",
+      "type": "Internship",
+      "logo": "/static/assets/images/companies/pyroguards.png",
+      "description": "Built a highly optimized machine learning classifier detecting malicious signatures and phishing nodes.",
+      "bullets": [
+        "Engineered an XGBoost/Scikit-learn URL classifier achieving 98.4% accuracy in detecting phishing vectors.",
+        "Curated and normalized a balanced training set of 1.2 million URL signatures to eliminate database bias.",
+        "Containerized security model using FastAPI and Docker, achieving a 95ms median response time on system endpoints."
+      ],
+      "icon": "🔐"
+    },
+    {
+      "id": "gdgoc",
+      "role": "AIML Head",
+      "org": "GDGoC SKASC",
+      "period": "2024 - 2025",
+      "type": "Leadership",
+      "logo": "/static/assets/images/companies/gdgoc.png",
+      "description": "Directed tech curriculums, built student developer pathways, and mentored coding teams on deep learning systems.",
+      "bullets": [
+        "Led a technical community of 200+ members, conducting 15+ hands-on bootcamps on Deep Learning and MLOps.",
+        "Mentored 10+ student coding teams, resulting in 3 first-place wins at regional and local college hackathons.",
+        "Published 3 comprehensive open-source ML roadmap repositories, gaining 100+ combined student stars on GitHub."
+      ],
+      "icon": "🧠"
+    },
+    {
+      "id": "gdgocap",
+      "role": "Flutter Head",
+      "org": "GDGoC SKASC",
+      "period": "2023 - 2024",
+      "type": "Leadership",
+      "logo": "/static/assets/images/companies/gdgoc.png",
+      "description": "Educated and trained student engineers in mobile framework architectures, modular coding, and open-source contributions.",
+      "bullets": [
+        "Conducted Flutter bootcamps for 150+ students, resulting in 25+ student-published cross-platform apps.",
+        "Spearheaded collaborative coding seminars, onboarding 120+ student developers to Git and collaborative workflows.",
+        "Architected standard MVVM skeleton codes for chapter projects, ensuring 100% adherence to clean code guidelines."
+      ],
+      "icon": "🧠"
+    },
+    {
+      "id": "literate-spork-founder",
+      "role": "Founder",
+      "org": "Literate Spork",
+      "period": "2024 - Present",
+      "type": "Open Source",
+      "description": "Founded and scaling a project-driven GitHub student community providing real-world MLOps mentorship.",
+      "bullets": [
+        "Founded a GitHub collaborative workspace, mentoring 50+ students in building and packaging predictive systems.",
+        "Curated and maintained 20+ open-source project repositories covering NLP, computer vision, and agentic AI.",
+        "Conducted 40+ formal peer code reviews, improving student pull request optimization rates by 25%."
+      ],
+      "icon": "🚀"
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.Sc Software Systems",
+      "institution": "Sri Krishna Arts and Science College",
+      "period": "2022 - 2027",
+      "type": "Degree"
+    },
+    {
+      "degree": "Data Science",
+      "institution": "IIT Madras (via GUVI)",
+      "period": "2023 - 2024",
+      "type": "Certification"
+    }
+  ]
+}
