@@ -3,7 +3,7 @@ import { THEME, FONTS, esc, cardFrame, saveVariants } from "./lib/theme.mjs";
 
 export async function renderHackathons(outDir = "dist") {
   const W = 920;
-  const H = 360;
+  const H = 348;
 
   function render({ theme, fullPage }) {
     const t = THEME[theme];
@@ -41,7 +41,7 @@ export async function renderHackathons(outDir = "dist") {
         place: "2ND PLACE",
         event: "HackAppsters",
         desc: "Chest Radiogram Disease Classifier",
-        venue: "L&amp;T EduTech · 2026",
+        venue: "L&T EduTech · 2026",
         badgeColor: t.cyan,
       },
       {
@@ -71,7 +71,7 @@ export async function renderHackathons(outDir = "dist") {
     const cardW = 196;
     const cardH = 110;
     const startX = 32;
-    const startY = 78;
+    const startY = 76;
     const gapX = 18;
     const gapY = 16;
 
@@ -87,17 +87,17 @@ export async function renderHackathons(outDir = "dist") {
           
           <g transform="translate(14, 24)">
             <!-- Award Pill -->
-            <rect width="80" height="18" rx="9" fill="${t.tagBg}" stroke="${w.badgeColor}" stroke-width="0.8"/>
-            <text x="40" y="12" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${w.badgeColor}" letter-spacing="0.06em">${esc(w.place)}</text>
+            <rect width="82" height="18" rx="9" fill="${t.tagBg}" stroke="${w.badgeColor}" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${w.badgeColor}" letter-spacing="0.06em">${esc(w.place)}</text>
           </g>
 
           <g transform="translate(14, 58)">
             <text font-family="${FONTS.sans}" font-size="12" font-weight="700" fill="${t.text}">${esc(w.event)}</text>
-            <text y="18" font-family="${FONTS.sans}" font-size="10.5" fill="${t.muted}">${esc(w.desc.length > 26 ? w.desc.slice(0, 24) + '...' : w.desc)}</text>
+            <text y="18" font-family="${FONTS.sans}" font-size="10.5" fill="${t.muted}">${esc(w.desc.length > 25 ? w.desc.slice(0, 23) + '...' : w.desc)}</text>
           </g>
 
           <g transform="translate(14, 94)">
-            <text font-family="${FONTS.mono}" font-size="9" fill="${t.dim}">${w.venue}</text>
+            <text font-family="${FONTS.mono}" font-size="9" fill="${t.dim}">${esc(w.venue)}</text>
           </g>
         </g>
       `;
@@ -114,7 +114,7 @@ export async function renderHackathons(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "🏆 Hackathons &amp; Championship Awards",
+      title: "🏆 Hackathons & Championship Awards",
       badge: "3× FIRST PRIZE · 1× BEST PAPER · 1× GOLD MEDAL",
       icon: "🏆",
       css,

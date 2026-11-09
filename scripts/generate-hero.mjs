@@ -63,14 +63,17 @@ export async function renderHero(outDir = "dist") {
         <g transform="translate(40, 192)">
           <rect width="840" height="40" rx="10" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
           
-          <g transform="translate(20, 25)">
-            <text font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
-              <tspan fill="${t.accent}">🎓</tspan> M.Sc Software Systems (SKASC)
-              &#160;&#160;&#160;&#160;
+          <g transform="translate(0, 25)">
+            <text x="24" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
+              <tspan fill="${t.accent}">🎓</tspan> M.Sc Systems (SKASC)
+            </text>
+            <text x="220" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
               <tspan fill="${t.gold}">🏅</tspan> Data Science @ IIT Madras
-              &#160;&#160;&#160;&#160;
-              <tspan fill="${t.cyan}">🤖</tspan> AI Intern @ Noukha &amp; Pixel Cognitix
-              &#160;&#160;&#160;&#160;
+            </text>
+            <text x="440" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
+              <tspan fill="${t.cyan}">🤖</tspan> AI Intern @ Noukha &amp; Pixel
+            </text>
+            <text x="670" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
               <tspan fill="${t.accent}">🚀</tspan> Founder @ Literate Spork
             </text>
           </g>

@@ -42,8 +42,8 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
           <text x="14" y="0" class="p-title" font-family="${FONTS.sans}" font-size="15" font-weight="700" fill="${t.text}">${esc(repo.name)}</text>
           
           <!-- Category Tag -->
-          <rect x="${cardW - 146}" y="-13" width="92" height="18" rx="9" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
-          <text x="${cardW - 100}" y="0" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.accent}" letter-spacing="0.08em">${esc(repo.tag || "AI SYSTEM")}</text>
+          <rect x="${cardW - 132}" y="-13" width="104" height="18" rx="9" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
+          <text x="${cardW - 80}" y="0" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.accent}" letter-spacing="0.08em">${esc(repo.tag || "AI SYSTEM")}</text>
         </g>
 
         <!-- Description -->

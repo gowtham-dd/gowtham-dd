@@ -1,5 +1,5 @@
 // Generates Tech Ecosystem with Official Brand Logos and Production Career Milestones
-import { THEME, FONTS, esc, cardFrame, saveVariants } from "./lib/theme.mjs";
+import { THEME, FONTS, esc, wrapText, cardFrame, saveVariants } from "./lib/theme.mjs";
 import { renderLogo } from "./lib/logos.mjs";
 
 export async function renderBento(outDir = "dist") {
@@ -8,15 +8,15 @@ export async function renderBento(outDir = "dist") {
   // 1. Tech Ecosystem with Embedded Official Brand Logos
   function renderSkills({ theme, fullPage }) {
     const t = THEME[theme];
-    const H = 460;
+    const H = 484;
 
     const clusters = [
       {
         x: 32,
-        y: 72,
+        y: 74,
         w: 416,
-        h: 172,
-        title: "AGENTIC AI &amp; LLMS",
+        h: 184,
+        title: "AGENTIC AI & LLMS",
         tag: "CORE EXPERTISE",
         color: t.accent,
         items: [
@@ -25,14 +25,14 @@ export async function renderBento(outDir = "dist") {
           { name: "FastAPI", logo: "fastapi" },
           { name: "Docker", logo: "docker" },
         ],
-        desc: "Autonomous multi-agent orchestration, state machines &amp; tool calling.",
+        desc: "Autonomous multi-agent orchestration, state machines and robust tool calling.",
       },
       {
         x: 472,
-        y: 72,
+        y: 74,
         w: 416,
-        h: 172,
-        title: "COMPUTER VISION &amp; DEEP LEARNING",
+        h: 184,
+        title: "COMPUTER VISION & DL",
         tag: "NEURAL NETWORKS",
         color: t.cyan,
         items: [
@@ -41,14 +41,14 @@ export async function renderBento(outDir = "dist") {
           { name: "OpenCV", logo: "opencv" },
           { name: "GitHub", logo: "github" },
         ],
-        desc: "YOLOv11 road damage detection, medical segmentation &amp; NLP clustering.",
+        desc: "YOLOv11 road damage detection, medical segmentation and NLP clustering.",
       },
       {
         x: 32,
-        y: 260,
+        y: 274,
         w: 416,
-        h: 172,
-        title: "MLOPS &amp; DEPLOYMENT PIPELINES",
+        h: 184,
+        title: "MLOPS & PIPELINES",
         tag: "PRODUCTION SYSTEMS",
         color: t.gold,
         items: [
@@ -57,14 +57,14 @@ export async function renderBento(outDir = "dist") {
           { name: "Git", logo: "git" },
           { name: "AWS", logo: "aws" },
         ],
-        desc: "Automated training loops, MLflow tracking, containerization &amp; 99.9% uptime.",
+        desc: "Automated training loops, MLflow tracking, containerization and 99.9% uptime.",
       },
       {
         x: 472,
-        y: 260,
+        y: 274,
         w: 416,
-        h: 172,
-        title: "DATA &amp; VECTOR STORES",
+        h: 184,
+        title: "DATA & VECTOR STORES",
         tag: "KNOWLEDGE ENGINES",
         color: t.accent,
         items: [
@@ -73,44 +73,48 @@ export async function renderBento(outDir = "dist") {
           { name: "Python", logo: "python" },
           { name: "Pinecone", logo: "pinecone" },
         ],
-        desc: "Hybrid semantic search, sub-100ms vector embeddings &amp; FHIR R4 pipelines.",
+        desc: "Hybrid semantic search, sub-100ms vector embeddings and FHIR R4 pipelines.",
       },
     ];
 
     const boxesSvg = clusters
       .map((b) => {
-        let logoX = 22;
-        const logosSvg = b.items.map((item) => {
-          const out = `
-            <g transform="translate(${logoX}, 72)">
-              <!-- Glass Pill Container -->
-              <rect width="90" height="34" rx="8" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
-              ${renderLogo(item.logo, 8, 5, 22)}
-              <text x="36" y="21" font-family="${FONTS.sans}" font-size="11" font-weight="600" fill="${t.text}">${esc(item.name)}</text>
+        // 2x2 grid of tool pills: 2 cols x 2 rows
+        // Each pill width = 180, height = 30
+        const pillsSvg = b.items.map((item, idx) => {
+          const col = idx % 2;
+          const row = Math.floor(idx / 2);
+          const px = 18 + col * 192;
+          const py = 52 + row * 36;
+          return `
+            <g transform="translate(${px}, ${py})">
+              <rect width="180" height="30" rx="8" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
+              ${renderLogo(item.logo, 10, 4, 22)}
+              <text x="38" y="19" font-family="${FONTS.sans}" font-size="11" font-weight="600" fill="${t.text}">${esc(item.name)}</text>
             </g>
           `;
-          logoX += 96;
-          return out;
         }).join("");
+
+        const descLines = wrapText(b.desc, 48);
 
         return `
         <g class="bento-box" transform="translate(${b.x}, ${b.y})">
           <rect class="b-bg" width="${b.w}" height="${b.h}" rx="14" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
           
           <!-- Header -->
-          <g transform="translate(20, 30)">
+          <g transform="translate(18, 28)">
             <circle cx="0" cy="0" r="4.5" fill="${b.color}"/>
-            <text x="14" y="4" font-family="${FONTS.mono}" font-size="11" font-weight="700" letter-spacing="0.08em" fill="${b.color}">${b.title}</text>
-            <rect x="${b.w - 132}" y="-11" width="92" height="20" rx="10" fill="${t.tagBg}"/>
-            <text x="${b.w - 86}" y="3" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
+            <text x="14" y="4" font-family="${FONTS.mono}" font-size="11" font-weight="700" letter-spacing="0.08em" fill="${b.color}">${esc(b.title)}</text>
+            <rect x="${b.w - 146}" y="-11" width="112" height="20" rx="10" fill="${t.tagBg}"/>
+            <text x="${b.w - 90}" y="3" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
           </g>
 
-          <!-- Logos Strip -->
-          <g>${logosSvg}</g>
+          <!-- 2x2 Tool Pills Strip -->
+          <g>${pillsSvg}</g>
 
-          <!-- Description -->
-          <g transform="translate(20, 142)">
-            <text font-family="${FONTS.sans}" font-size="11.5" fill="${t.muted}">${b.desc}</text>
+          <!-- Clean Wrapped Description -->
+          <g transform="translate(18, 140)">
+            ${descLines.map((line, li) => `<text x="0" y="${li * 17}" font-family="${FONTS.sans}" font-size="11.5" fill="${t.muted}">${esc(line)}</text>`).join("\n")}
           </g>
         </g>
       `;
@@ -128,7 +132,7 @@ export async function renderBento(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "⚙️ Technical Capabilities &amp; Stack",
+      title: "⚙️ Technical Capabilities & Stack",
       badge: "AGENTIC AI · COMPUTER VISION · MLOPS · VECTOR DATABASES",
       icon: "⚡",
       css,
@@ -139,68 +143,84 @@ export async function renderBento(outDir = "dist") {
   // 2. Production Career Milestones
   function renderExperience({ theme, fullPage }) {
     const t = THEME[theme];
-    const H = 450;
+    const H = 484;
 
     const milestones = [
       {
         org: "Noukha Technologies",
         role: "AI Developer Intern",
         period: "Mar 2026 – Present",
-        bullets: "• Reduced system latency by 32% &amp; compute cost by 20% | • Scaled FastAPI backend to 5,000+ daily production requests | • Optimized AWS S3 Vectors improving recall by 45%",
         color: t.accent,
+        bullet1: "Reduced system latency by 32% and compute cost by 20% on FastAPI backend",
+        bullet2: "Optimized AWS S3 vector storage & retrieval pipelines, boosting recall by 45%",
       },
       {
         org: "Pixel Cognitix",
         role: "AI Developer Intern",
         period: "Oct 2025 – Present",
-        bullets: "• Built automated n8n + Python pipelines saving 15+ hrs/week | • Ingested &amp; normalized 2.5M rows of semi-anonymous web data | • Fine-tuned local threat classifier by +18%",
         color: t.cyan,
+        bullet1: "Built automated n8n + Python pipelines ingesting 2.5M rows of web data",
+        bullet2: "Fine-tuned local threat classification agent, improving model accuracy by 18%",
       },
       {
         org: "Alesa AI (UK)",
-        role: "App &amp; AI Developer Intern",
+        role: "App & AI Developer Intern",
         period: "Mar 2025 – Sep 2025",
-        bullets: "• Scaled APIs for Noulez &amp; SnagNinja serving thousands of users | • SQL optimization cut read response times by 40% | • Integrated notification loops boosting DAU by 22%",
         color: t.gold,
+        bullet1: "Scaled production APIs for flagship applications (Noulez & SnagNinja)",
+        bullet2: "Optimized SQL indexing and query execution, cutting read latency by 40%",
       },
       {
         org: "Pyroguards (CBE)",
-        role: "App &amp; AI Developer Intern",
+        role: "App & AI Developer Intern",
         period: "Jan 2025 – Mar 2025",
-        bullets: "• 98.4% URL phishing detection accuracy on 1.2M signatures | • Dockerized FastAPI model achieving 95ms median response time | • Zero dataset imbalance bias",
         color: t.accent,
+        bullet1: "Engineered XGBoost URL phishing classifier with 98.4% detection accuracy",
+        bullet2: "Containerized model with FastAPI & Docker, delivering 95ms median response time",
       },
       {
         org: "Literate Spork",
-        role: "Founder &amp; Community Lead",
+        role: "Founder & Community Lead",
         period: "2024 – Present",
-        bullets: "• Mentored 50+ students in hands-on MLOps and Agentic AI | • Maintained 20+ open-source project repos | • Conducted 40+ formal peer code reviews",
         color: t.cyan,
+        bullet1: "Mentored 50+ students in hands-on MLOps, LLM architectures & Agentic AI",
+        bullet2: "Maintained 20+ open-source repositories and led 40+ technical peer reviews",
       },
     ];
 
-    const itemH = 68;
+    const cardW = 820;
+    const cardH = 68;
+    const startY = 74;
+    const itemH = 76;
+
     const itemsSvg = milestones.map((m, i) => {
-      const y = 82 + i * itemH;
+      const y = startY + i * itemH;
       return `
-        <g class="exp-item" transform="translate(42, ${y})">
-          <!-- Step indicator line -->
-          ${i < milestones.length - 1 ? `<line x1="12" y1="20" x2="12" y2="${itemH + 10}" stroke="${t.border}" stroke-width="2"/>` : ""}
-          <circle cx="12" cy="12" r="6" fill="${m.color}"/>
-          <circle cx="12" cy="12" r="2.5" fill="${t.bg}"/>
+        <g class="exp-item" transform="translate(50, ${y})">
+          <!-- Step indicator line and circle -->
+          ${i < milestones.length - 1 ? `<line x1="-18" y1="20" x2="-18" y2="${itemH + 10}" stroke="${t.border}" stroke-width="2"/>` : ""}
+          <circle cx="-18" cy="14" r="6" fill="${m.color}"/>
+          <circle cx="-18" cy="14" r="2.5" fill="${t.bg}"/>
 
           <!-- Card Content -->
-          <g transform="translate(36, 0)">
-            <rect class="e-bg" width="800" height="58" rx="8" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
+          <g>
+            <rect class="e-bg" width="${cardW}" height="${cardH}" rx="10" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
             
-            <g transform="translate(16, 22)">
-              <text font-family="${FONTS.sans}" font-size="13" font-weight="700" fill="${t.text}">${esc(m.role.replace('&amp;', '&'))}</text>
-              <text x="${m.role.length * 8.2 + 8}" y="0" font-family="${FONTS.sans}" font-size="13" font-weight="600" fill="${m.color}">@ ${esc(m.org)}</text>
-              <text x="760" y="0" text-anchor="end" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">${esc(m.period)}</text>
+            <!-- Title, Org, and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="${FONTS.sans}" font-size="13">
+                <tspan font-weight="700" fill="${t.text}">${esc(m.role)}</tspan>
+                <tspan font-weight="600" fill="${m.color}"> @ ${esc(m.org)}</tspan>
+              </text>
+              <text x="${cardW - 36}" y="0" text-anchor="end" font-family="${FONTS.mono}" font-size="10.5" font-weight="500" fill="${t.muted}">${esc(m.period)}</text>
             </g>
 
-            <g transform="translate(16, 42)">
-              <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}">${m.bullets}</text>
+            <!-- Clean Justified Bullets -->
+            <g transform="translate(18, 41)">
+              <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}"><tspan fill="${m.color}" font-weight="700">● </tspan>${esc(m.bullet1)}</text>
+            </g>
+            <g transform="translate(18, 57)">
+              <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}"><tspan fill="${m.color}" font-weight="700">● </tspan>${esc(m.bullet2)}</text>
             </g>
           </g>
         </g>
@@ -218,7 +238,7 @@ export async function renderBento(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "💼 Production Experience &amp; Internships",
+      title: "💼 Production Experience & Internships",
       badge: "4 INTERNSHIPS · 1 COMMUNITY FOUNDED · SHIPPED PRODUCTION SYSTEMS",
       icon: "🏢",
       css,

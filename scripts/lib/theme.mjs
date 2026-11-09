@@ -45,10 +45,16 @@ export const FONTS = {
   mono: "ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace",
 };
 
-// Strict XML escaping to prevent ANY broken XML parsing
+// Strict XML escaping with entity normalization to prevent double-escaping (e.g. &amp; -> & -> &amp;)
 export function esc(s) {
   if (s == null) return "";
-  return String(s)
+  const normalized = String(s)
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'");
+  return normalized
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
@@ -86,14 +92,24 @@ export function cardFrame({ width, height, theme = "dark", fullPage = false, tit
   const pad = fullPage ? 24 : 0;
   const dims = fullPage ? "" : ` width="${width}" height="${height}"`;
 
-  // Fix #3: In full-page view, completely disable any hover transform to eliminate flickering
-  const fullPageCss = fullPage
-    ? `
-      :root{background:${t.bg}}
-      *{animation:none!important}
-      :hover{transform:none!important}
-    `
-    : "";
+  // In full-page view, completely disable any hover transform, transitions, and hover-triggered repaints to eliminate flickering
+  let styleBlock = "";
+  if (fullPage) {
+    styleBlock = `
+      :root { background: ${t.bg}; }
+      *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+      }
+      :hover {
+        transform: none !important;
+        filter: none !important;
+      }
+    `;
+  } else {
+    styleBlock = css;
+  }
 
   const header = title
     ? `<g transform="translate(32, 42)">
@@ -117,12 +133,11 @@ export function cardFrame({ width, height, theme = "dark", fullPage = false, tit
   </pattern>
 </defs>
 <style>
-  ${fullPageCss}
   .txt{font-family:${FONTS.sans};fill:${t.text}}
   .sub{font-family:${FONTS.sans};fill:${t.muted}}
   .code{font-family:${FONTS.mono};fill:${t.muted}}
   .title{font-family:${FONTS.sans};font-weight:700;fill:${t.text}}
-  ${css}
+  ${styleBlock}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 <rect x="0.5" y="0.5" width="${width - 1}" height="${height - 1}" rx="18" fill="${t.bg}" stroke="${t.border}" stroke-width="1"/>
