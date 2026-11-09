@@ -1,7 +1,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════
      GOWTHAM D — AUTONOMOUS AI ENGINEER & MLOPS PORTFOLIO
      Palette: Obsidian (#08090C) · Solar Flame (#FF5722) · Amber (#FBBF24)
-     Dynamically updated by scripts/build.mjs via GitHub Actions
      ═══════════════════════════════════════════════════════════════════════ -->
 
 <a href="https://gowthamdportfolio.vercel.app/">
@@ -13,13 +12,12 @@
 </a>
 
 <p align="center">
-  <a href="https://gowthamdportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-gowthamdportfolio.vercel.app-08090C?style=flat-square&labelColor=FF5722" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/gowtham-duraipandi"><img src="https://img.shields.io/badge/LinkedIn-Gowtham_D-08090C?style=flat-square&labelColor=1E2638" alt="LinkedIn" /></a>
-  <a href="https://www.kaggle.com/gowthamdd"><img src="https://img.shields.io/badge/Kaggle-Expert-08090C?style=flat-square&logo=kaggle&logoColor=FF5722&labelColor=1E2638" alt="Kaggle" /></a>
-  <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-08090C?style=flat-square&logo=gmail&logoColor=FF5722&labelColor=1E2638" alt="Email" /></a>
-  <a href="https://drive.google.com/drive/folders/1y9U7M3kAHI-l3dXBDrwxpOjD9ULjhPvZ?usp=sharing"><img src="https://img.shields.io/badge/Resume-Google_Drive-08090C?style=flat-square&labelColor=FF5722" alt="Resume" /></a>
-  <img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=profile+views&color=08090C&style=flat-square" alt="Views" />
-  <img src="https://img.shields.io/github/followers/gowtham-dd?label=followers&style=flat-square&color=08090C&labelColor=1E2638" alt="Followers" />
+  <a href="https://gowthamdportfolio.vercel.app/" title="Live Portfolio Website"><img src="https://skillicons.dev/icons?i=vercel" height="38" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/gowtham-duraipandi" title="LinkedIn Profile"><img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.kaggle.com/gowthamdd" title="Kaggle Profile"><img src="https://skillicons.dev/icons?i=kaggle" height="38" alt="Kaggle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:gowthamd997@gmail.com" title="Direct Email"><img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Email" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gowtham-dd" title="GitHub Profile"><img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://drive.google.com/drive/folders/1y9U7M3kAHI-l3dXBDrwxpOjD9ULjhPvZ?usp=sharing" title="Google Drive Resume"><img src="https://img.shields.io/badge/RESUME-CV-FF5722?style=for-the-badge&logo=googledrive&logoColor=white" height="36" alt="Resume" /></a>
 </p>
 
 <br/>
@@ -28,7 +26,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-light.svg" />
-  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" title="Pinned Projects — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
+  <img width="100%" alt="Gowtham D — Pinned Repositories Live from GitHub" title="Pinned Repositories — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/pinned-projects-dark.svg" />
 </picture>
 </a>
 
@@ -38,7 +36,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/ai-architecture-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/ai-architecture-light.svg" />
-  <img width="100%" alt="Production Multi-Agent Architecture — LangGraph & MLOps" title="AI Architecture — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/ai-architecture-dark.svg" />
+  <img width="100%" alt="Production Multi-Agent Architecture — LangGraph &amp; MLOps" title="AI Architecture — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/ai-architecture-dark.svg" />
 </picture>
 </a>
 
@@ -48,7 +46,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-light.svg" />
-  <img width="100%" alt="Technical Capabilities & Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" title="Skills & Stack — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
+  <img width="100%" alt="Technical Capabilities &amp; Stack — Agentic AI, Deep Learning, MLOps, Vector Stores" title="Skills &amp; Stack — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/skills-bento-dark.svg" />
 </picture>
 </a>
 
@@ -58,7 +56,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-light.svg" />
-  <img width="100%" alt="Production Experience & Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" title="Experience Timeline — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
+  <img width="100%" alt="Production Experience &amp; Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards" title="Experience Timeline — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/experience-timeline-dark.svg" />
 </picture>
 </a>
 
@@ -68,7 +66,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-light.svg" />
-  <img width="100%" alt="Hackathons & Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" title="Hackathons & Honors — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
+  <img width="100%" alt="Hackathons &amp; Championship Awards — 3x 1st Prize, Best Paper, Gold Medal" title="Hackathons &amp; Honors — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/hackathons-grid-dark.svg" />
 </picture>
 </a>
 
@@ -78,7 +76,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-light.svg" />
-  <img width="100%" alt="Engineering Metrics & Code Distribution — 77 Repos, 12 Shipped Systems" title="Engineering Metrics — Click to inspect full resolution" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
+  <img width="100%" alt="Engineering Metrics &amp; Code Distribution — 77 Repos, 12 Shipped Systems" title="Engineering Metrics — Click to inspect high-resolution view" src="https://raw.githubusercontent.com/gowtham-dd/gowtham-dd/output/activity-radar-dark.svg" />
 </picture>
 </a>
 

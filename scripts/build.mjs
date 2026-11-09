@@ -13,7 +13,7 @@ const RAW = `https://raw.githubusercontent.com/${login}/${login}/output`;
 
 console.log(`Starting portfolio generation for @${login} into ${outDir}/...`);
 
-// 1. Render all graphics
+// 1. Render all infographic visual modules
 await renderHero(outDir);
 await renderPinnedCards(login, outDir);
 await renderArchitecture(outDir);
@@ -21,7 +21,7 @@ await renderBento(outDir);
 await renderHackathons(outDir);
 await renderActivity(outDir);
 
-// 2. Generate Initial Snake SVGs if not present
+// 2. Generate Initial Contribution Snake SVGs if not present
 const snakeDark = `<svg xmlns="http://www.w3.org/2000/svg" width="920" height="150" viewBox="0 0 920 150" role="img" aria-label="Contribution snake">
   <rect width="920" height="150" rx="14" fill="#08090C" stroke="#1E2638"/>
   <text x="460" y="70" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="700" fill="#FF5722">🐍 Daily Contribution Heatmap Snake</text>
@@ -37,13 +37,13 @@ const snakeLight = `<svg xmlns="http://www.w3.org/2000/svg" width="920" height="
 await writeFile(`${outDir}/snake-dark.svg`, snakeDark);
 await writeFile(`${outDir}/snake.svg`, snakeLight);
 
-// 3. Assemble README.md
+// 3. Assemble README.md with direct Infographic Embeds & Verified Logos
 function card(name, title, alt) {
   return `<a href="${RAW}/${name}-full.svg">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="${RAW}/${name}-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="${RAW}/${name}-light.svg" />
-  <img width="100%" alt="${alt}" title="${title} — Click to inspect full resolution" src="${RAW}/${name}-dark.svg" />
+  <img width="100%" alt="${alt}" title="${title} — Click to inspect high-resolution view" src="${RAW}/${name}-dark.svg" />
 </picture>
 </a>
 
@@ -54,7 +54,6 @@ function card(name, title, alt) {
 const readmeContent = `<!-- ═══════════════════════════════════════════════════════════════════════
      GOWTHAM D — AUTONOMOUS AI ENGINEER & MLOPS PORTFOLIO
      Palette: Obsidian (#08090C) · Solar Flame (#FF5722) · Amber (#FBBF24)
-     Dynamically updated by scripts/build.mjs via GitHub Actions
      ═══════════════════════════════════════════════════════════════════════ -->
 
 <a href="https://gowthamdportfolio.vercel.app/">
@@ -66,23 +65,22 @@ const readmeContent = `<!-- ═════════════════�
 </a>
 
 <p align="center">
-  <a href="https://gowthamdportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-gowthamdportfolio.vercel.app-08090C?style=flat-square&labelColor=FF5722" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/gowtham-duraipandi"><img src="https://img.shields.io/badge/LinkedIn-Gowtham_D-08090C?style=flat-square&labelColor=1E2638" alt="LinkedIn" /></a>
-  <a href="https://www.kaggle.com/gowthamdd"><img src="https://img.shields.io/badge/Kaggle-Expert-08090C?style=flat-square&logo=kaggle&logoColor=FF5722&labelColor=1E2638" alt="Kaggle" /></a>
-  <a href="mailto:gowthamd997@gmail.com"><img src="https://img.shields.io/badge/Email-gowthamd997@gmail.com-08090C?style=flat-square&logo=gmail&logoColor=FF5722&labelColor=1E2638" alt="Email" /></a>
-  <a href="https://drive.google.com/drive/folders/1y9U7M3kAHI-l3dXBDrwxpOjD9ULjhPvZ?usp=sharing"><img src="https://img.shields.io/badge/Resume-Google_Drive-08090C?style=flat-square&labelColor=FF5722" alt="Resume" /></a>
-  <img src="https://komarev.com/ghpvc/?username=gowtham-dd&label=profile+views&color=08090C&style=flat-square" alt="Views" />
-  <img src="https://img.shields.io/github/followers/gowtham-dd?label=followers&style=flat-square&color=08090C&labelColor=1E2638" alt="Followers" />
+  <a href="https://gowthamdportfolio.vercel.app/" title="Live Portfolio Website"><img src="https://skillicons.dev/icons?i=vercel" height="38" alt="Portfolio" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/gowtham-duraipandi" title="LinkedIn Profile"><img src="https://skillicons.dev/icons?i=linkedin" height="38" alt="LinkedIn" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.kaggle.com/gowthamdd" title="Kaggle Profile"><img src="https://skillicons.dev/icons?i=kaggle" height="38" alt="Kaggle" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:gowthamd997@gmail.com" title="Direct Email"><img src="https://skillicons.dev/icons?i=gmail" height="38" alt="Email" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/gowtham-dd" title="GitHub Profile"><img src="https://skillicons.dev/icons?i=github" height="38" alt="GitHub" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://drive.google.com/drive/folders/1y9U7M3kAHI-l3dXBDrwxpOjD9ULjhPvZ?usp=sharing" title="Google Drive Resume"><img src="https://img.shields.io/badge/RESUME-CV-FF5722?style=for-the-badge&logo=googledrive&logoColor=white" height="36" alt="Resume" /></a>
 </p>
 
 <br/>
 
-${card("pinned-projects", "Pinned Projects", "Gowtham D — Pinned Repositories Live from GitHub")}
-${card("ai-architecture", "AI Architecture", "Production Multi-Agent Architecture — LangGraph & MLOps")}
-${card("skills-bento", "Skills & Stack", "Technical Capabilities & Stack — Agentic AI, Deep Learning, MLOps, Vector Stores")}
-${card("experience-timeline", "Experience Timeline", "Production Experience & Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards")}
-${card("hackathons-grid", "Hackathons & Honors", "Hackathons & Championship Awards — 3x 1st Prize, Best Paper, Gold Medal")}
-${card("activity-radar", "Engineering Metrics", "Engineering Metrics & Code Distribution — 77 Repos, 12 Shipped Systems")}
+${card("pinned-projects", "Pinned Repositories", "Gowtham D — Pinned Repositories Live from GitHub")}
+${card("ai-architecture", "AI Architecture", "Production Multi-Agent Architecture — LangGraph &amp; MLOps")}
+${card("skills-bento", "Skills &amp; Stack", "Technical Capabilities &amp; Stack — Agentic AI, Deep Learning, MLOps, Vector Stores")}
+${card("experience-timeline", "Experience Timeline", "Production Experience &amp; Internships — Noukha, Pixel Cognitix, Alesa AI, Pyroguards")}
+${card("hackathons-grid", "Hackathons &amp; Honors", "Hackathons &amp; Championship Awards — 3x 1st Prize, Best Paper, Gold Medal")}
+${card("activity-radar", "Engineering Metrics", "Engineering Metrics &amp; Code Distribution — 77 Repos, 12 Shipped Systems")}
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="${RAW}/snake-dark.svg" />
@@ -97,4 +95,3 @@ ${card("activity-radar", "Engineering Metrics", "Engineering Metrics & Code Dist
 
 await writeFile("README.md", readmeContent);
 console.log("Successfully generated all graphics and updated README.md!");
-

@@ -12,8 +12,8 @@ export async function renderActivity(outDir = "dist") {
       { name: "Python", share: 0.62, color: "#3572A5" },
       { name: "Jupyter / ML", share: 0.18, color: t.accent },
       { name: "FastAPI / Docker", share: 0.10, color: t.cyan },
-      { name: "SQL & DB", share: 0.06, color: t.gold },
-      { name: "Shell & CI/CD", share: 0.04, color: "#8B5CF6" },
+      { name: "SQL &amp; DB", share: 0.06, color: t.gold },
+      { name: "Shell &amp; CI/CD", share: 0.04, color: "#8B5CF6" },
     ];
 
     const metrics = [
@@ -24,7 +24,7 @@ export async function renderActivity(outDir = "dist") {
     ];
 
     // Left half: Language breakdown bars
-    let barY = 90;
+    let barY = 92;
     const langSvg = languages.map((l) => {
       const y = barY;
       barY += 34;
@@ -32,7 +32,7 @@ export async function renderActivity(outDir = "dist") {
       return `
         <g transform="translate(42, ${y})">
           <circle cx="4" cy="-4" r="4" fill="${l.color}"/>
-          <text x="16" y="0" font-family="${FONTS.sans}" font-size="12" font-weight="600" fill="${t.text}">${esc(l.name)}</text>
+          <text x="16" y="0" font-family="${FONTS.sans}" font-size="12" font-weight="600" fill="${t.text}">${l.name}</text>
           <text x="350" y="0" text-anchor="end" font-family="${FONTS.mono}" font-size="11" fill="${t.muted}">${(l.share * 100).toFixed(0)}%</text>
           
           <rect x="0" y="8" width="350" height="6" rx="3" fill="${t.tagBg}"/>
@@ -46,7 +46,7 @@ export async function renderActivity(outDir = "dist") {
       const col = i % 2;
       const row = Math.floor(i / 2);
       const x = 450 + col * 215;
-      const y = 90 + row * 95;
+      const y = 92 + row * 95;
 
       return `
         <g transform="translate(${x}, ${y})">
@@ -62,16 +62,17 @@ export async function renderActivity(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "📊 Engineering Metrics & Code Distribution",
+      title: "📊 Engineering Metrics &amp; Code Distribution",
       badge: "PROVEN IMPACT · OPEN SOURCE COMMITS",
+      icon: "📈",
       content: `
         <line x1="420" y1="80" x2="420" y2="290" stroke="${t.border}" stroke-width="1"/>
         <g>${langSvg}</g>
         <g>${metricCardsSvg}</g>
-        <g transform="translate(42, 290)">
+        <g transform="translate(42, 292)">
           <text font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">
             <tspan fill="${t.accent}">●</tspan> Primary Development: <tspan fill="${t.text}">Python, LangGraph &amp; PyTorch</tspan>
-            &nbsp;&nbsp;&nbsp;&nbsp;
+            &#160;&#160;&#160;&#160;
             <tspan fill="${t.cyan}">●</tspan> Architecture: <tspan fill="${t.text}">Microservices &amp; Vector Databases</tspan>
           </text>
         </g>
@@ -86,4 +87,3 @@ export async function renderActivity(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-activity.mjs")) {
   await renderActivity(process.argv[2] || "dist");
 }
-

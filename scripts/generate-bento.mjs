@@ -1,97 +1,117 @@
-// Generates Tech Bento Grid and Production Career Milestones
+// Generates Tech Ecosystem with Official Brand Logos and Production Career Milestones
 import { THEME, FONTS, esc, cardFrame, saveVariants } from "./lib/theme.mjs";
+import { renderLogo } from "./lib/logos.mjs";
 
 export async function renderBento(outDir = "dist") {
   const W = 920;
-  const H = 460;
 
-  // 1. Tech Arsenal Bento
+  // 1. Tech Ecosystem with Embedded Official Brand Logos
   function renderSkills({ theme, fullPage }) {
     const t = THEME[theme];
+    const H = 460;
 
-    const boxes = [
+    const clusters = [
       {
         x: 32,
-        y: 70,
+        y: 72,
         w: 416,
-        h: 170,
-        title: "AGENTIC AI & LLMS",
-        tag: "CORE FOCUS",
+        h: 172,
+        title: "AGENTIC AI &amp; LLMS",
+        tag: "CORE EXPERTISE",
         color: t.accent,
-        skills: ["LangGraph", "LangChain", "LangSmith", "LangServe", "Groq", "LLaMA 3.1", "OpenAI", "Deepgram"],
-        desc: "Autonomous multi-agent orchestration, tool calling, and state persistence.",
+        items: [
+          { name: "LangGraph", logo: "langgraph" },
+          { name: "Python", logo: "python" },
+          { name: "FastAPI", logo: "fastapi" },
+          { name: "Docker", logo: "docker" },
+        ],
+        desc: "Autonomous multi-agent orchestration, state machines &amp; tool calling.",
       },
       {
         x: 472,
-        y: 70,
+        y: 72,
         w: 416,
-        h: 170,
-        title: "COMPUTER VISION & DEEP LEARNING",
-        tag: "VISION & NLP",
+        h: 172,
+        title: "COMPUTER VISION &amp; DEEP LEARNING",
+        tag: "NEURAL NETWORKS",
         color: t.cyan,
-        skills: ["PyTorch", "TensorFlow", "YOLOv11", "OpenCV", "Scikit-learn", "HDBSCAN", "SHAP"],
-        desc: "Real-time threat detection, medical image segmentation, and NLP clustering.",
+        items: [
+          { name: "PyTorch", logo: "pytorch" },
+          { name: "TensorFlow", logo: "tensorflow" },
+          { name: "OpenCV", logo: "opencv" },
+          { name: "GitHub", logo: "github" },
+        ],
+        desc: "YOLOv11 road damage detection, medical segmentation &amp; NLP clustering.",
       },
       {
         x: 32,
-        y: 256,
+        y: 260,
         w: 416,
-        h: 170,
-        title: "MLOPS & DEPLOYMENT",
-        tag: "PRODUCTION",
+        h: 172,
+        title: "MLOPS &amp; DEPLOYMENT PIPELINES",
+        tag: "PRODUCTION SYSTEMS",
         color: t.gold,
-        skills: ["MLflow", "DagsHub", "Docker", "GitHub Actions", "FastAPI", "Flask", "n8n"],
-        desc: "Automated training loops, model tracking, containerization, and 99.9% uptime CI/CD.",
+        items: [
+          { name: "Docker", logo: "docker" },
+          { name: "FastAPI", logo: "fastapi" },
+          { name: "Git", logo: "git" },
+          { name: "AWS", logo: "aws" },
+        ],
+        desc: "Automated training loops, MLflow tracking, containerization &amp; 99.9% uptime.",
       },
       {
         x: 472,
-        y: 256,
+        y: 260,
         w: 416,
-        h: 170,
-        title: "DATA & VECTOR STORES",
-        tag: "KNOWLEDGE LAYER",
+        h: 172,
+        title: "DATA &amp; VECTOR STORES",
+        tag: "KNOWLEDGE ENGINES",
         color: t.accent,
-        skills: ["PostgreSQL", "Pinecone", "FAISS", "Qdrant", "Pandas", "NumPy", "AWS S3", "FHIR R4"],
-        desc: "Hybrid semantic search, sub-100ms vector embeddings, and high-throughput data ops.",
+        items: [
+          { name: "PostgreSQL", logo: "postgres" },
+          { name: "AWS S3", logo: "aws" },
+          { name: "Python", logo: "python" },
+          { name: "Pinecone", logo: "pinecone" },
+        ],
+        desc: "Hybrid semantic search, sub-100ms vector embeddings &amp; FHIR R4 pipelines.",
       },
     ];
 
-    const boxesSvg = boxes
+    const boxesSvg = clusters
       .map((b) => {
-        let chipX = 20;
-        let chipY = 66;
-        const chipsSvg = b.skills.map((s) => {
-          const w = s.length * 7.2 + 16;
-          if (chipX + w > b.w - 20) {
-            chipX = 20;
-            chipY += 26;
-          }
+        let logoX = 22;
+        const logosSvg = b.items.map((item) => {
           const out = `
-            <g transform="translate(${chipX}, ${chipY})">
-              <rect width="${w}" height="20" rx="10" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
-              <text x="${w / 2}" y="13.5" text-anchor="middle" font-family="${FONTS.mono}" font-size="10" font-weight="600" fill="${t.text}">${esc(s)}</text>
+            <g transform="translate(${logoX}, 72)">
+              <!-- Glass Pill Container -->
+              <rect width="90" height="34" rx="8" fill="${t.tagBg}" stroke="${t.border}" stroke-width="0.8"/>
+              ${renderLogo(item.logo, 8, 5, 22)}
+              <text x="36" y="21" font-family="${FONTS.sans}" font-size="11" font-weight="600" fill="${t.text}">${esc(item.name)}</text>
             </g>
           `;
-          chipX += w + 8;
+          logoX += 96;
           return out;
         }).join("");
 
         return `
         <g class="bento-box" transform="translate(${b.x}, ${b.y})">
-          <rect class="b-bg" width="${b.w}" height="${b.h}" rx="12" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
+          <rect class="b-bg" width="${b.w}" height="${b.h}" rx="14" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
           
-          <g transform="translate(20, 28)">
-            <circle cx="0" cy="0" r="4" fill="${b.color}"/>
-            <text x="12" y="4" font-family="${FONTS.mono}" font-size="11" font-weight="700" letter-spacing="0.08em" fill="${b.color}">${esc(b.title)}</text>
-            <rect x="${b.w - 120}" y="-11" width="80" height="18" rx="9" fill="${t.tagBg}"/>
-            <text x="${b.w - 80}" y="1" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
+          <!-- Header -->
+          <g transform="translate(20, 30)">
+            <circle cx="0" cy="0" r="4.5" fill="${b.color}"/>
+            <text x="14" y="4" font-family="${FONTS.mono}" font-size="11" font-weight="700" letter-spacing="0.08em" fill="${b.color}">${b.title}</text>
+            <rect x="${b.w - 132}" y="-11" width="92" height="20" rx="10" fill="${t.tagBg}"/>
+            <text x="${b.w - 86}" y="3" text-anchor="middle" font-family="${FONTS.mono}" font-size="9" font-weight="700" fill="${t.muted}">${esc(b.tag)}</text>
           </g>
 
-          <!-- Pills -->
-          <g>${chipsSvg}</g>
+          <!-- Logos Strip -->
+          <g>${logosSvg}</g>
 
-          <!-- Excerpt -->
-          <text x="20" y="${b.h - 18}" font-family="${FONTS.sans}" font-size="11" fill="${t.muted}">${esc(b.desc)}</text>
+          <!-- Description -->
+          <g transform="translate(20, 142)">
+            <text font-family="${FONTS.sans}" font-size="11.5" fill="${t.muted}">${b.desc}</text>
+          </g>
         </g>
       `;
       })
@@ -108,8 +128,9 @@ export async function renderBento(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "⚙️ Technical Capabilities & Stack",
-      badge: "AGENTIC AI · COMPUTER VISION · MLOPS · VECTOR STORES",
+      title: "⚙️ Technical Capabilities &amp; Stack",
+      badge: "AGENTIC AI · COMPUTER VISION · MLOPS · VECTOR DATABASES",
+      icon: "⚡",
       css,
       content: boxesSvg,
     });
@@ -118,53 +139,49 @@ export async function renderBento(outDir = "dist") {
   // 2. Production Career Milestones
   function renderExperience({ theme, fullPage }) {
     const t = THEME[theme];
+    const H = 450;
 
     const milestones = [
       {
         org: "Noukha Technologies",
         role: "AI Developer Intern",
         period: "Mar 2026 – Present",
-        highlight: "LangGraph Multi-Agent Workflows",
-        bullets: "• Reduced system latency by 32% & compute cost by 20% | • Scaled FastAPI serving 5K+ daily production requests | • Optimized AWS S3 Vectors improving recall by 45%",
+        bullets: "• Reduced system latency by 32% &amp; compute cost by 20% | • Scaled FastAPI backend to 5,000+ daily production requests | • Optimized AWS S3 Vectors improving recall by 45%",
         color: t.accent,
       },
       {
         org: "Pixel Cognitix",
         role: "AI Developer Intern",
         period: "Oct 2025 – Present",
-        highlight: "Automated Data Ingestion & Classification",
-        bullets: "• Built n8n + Python pipelines saving 15+ hrs/week | • Ingested & normalized 2.5M rows of semi-anonymous web data | • Fine-tuned local threat classifier by +18%",
+        bullets: "• Built automated n8n + Python pipelines saving 15+ hrs/week | • Ingested &amp; normalized 2.5M rows of semi-anonymous web data | • Fine-tuned local threat classifier by +18%",
         color: t.cyan,
       },
       {
         org: "Alesa AI (UK)",
-        role: "App & AI Developer Intern",
+        role: "App &amp; AI Developer Intern",
         period: "Mar 2025 – Sep 2025",
-        highlight: "Flagship Mobile AI Backends",
-        bullets: "• Scaled APIs for Noulez & SnagNinja for thousands of users | • SQL optimization cut read response times by 40% | • Notification pipeline lifted DAU by 22%",
+        bullets: "• Scaled APIs for Noulez &amp; SnagNinja serving thousands of users | • SQL optimization cut read response times by 40% | • Integrated notification loops boosting DAU by 22%",
         color: t.gold,
       },
       {
         org: "Pyroguards (CBE)",
-        role: "App & AI Developer Intern",
+        role: "App &amp; AI Developer Intern",
         period: "Jan 2025 – Mar 2025",
-        highlight: "Cyber Threat & Phishing Detection",
-        bullets: "• 98.4% URL classifier accuracy on 1.2M signatures | • Dockerized FastAPI model achieving 95ms median response time | • Zero dataset imbalance bias",
+        bullets: "• 98.4% URL phishing detection accuracy on 1.2M signatures | • Dockerized FastAPI model achieving 95ms median response time | • Zero dataset imbalance bias",
         color: t.accent,
       },
       {
         org: "Literate Spork",
-        role: "Founder & Community Lead",
+        role: "Founder &amp; Community Lead",
         period: "2024 – Present",
-        highlight: "Open Source MLOps Community",
-        bullets: "• Mentored 50+ students in hands-on MLOps and Agentic AI | • Maintained 20+ open-source project repos | • Conducted 40+ formal code reviews",
+        bullets: "• Mentored 50+ students in hands-on MLOps and Agentic AI | • Maintained 20+ open-source project repos | • Conducted 40+ formal peer code reviews",
         color: t.cyan,
       },
     ];
 
     const itemH = 68;
     const itemsSvg = milestones.map((m, i) => {
-      const y = 80 + i * itemH;
+      const y = 82 + i * itemH;
       return `
         <g class="exp-item" transform="translate(42, ${y})">
           <!-- Step indicator line -->
@@ -177,13 +194,13 @@ export async function renderBento(outDir = "dist") {
             <rect class="e-bg" width="800" height="58" rx="8" fill="${t.surface}" stroke="${t.border}" stroke-width="1"/>
             
             <g transform="translate(16, 22)">
-              <text font-family="${FONTS.sans}" font-size="13" font-weight="700" fill="${t.text}">${esc(m.role)}</text>
-              <text x="${m.role.length * 8.5 + 8}" y="0" font-family="${FONTS.sans}" font-size="13" font-weight="600" fill="${m.color}">@ ${esc(m.org)}</text>
+              <text font-family="${FONTS.sans}" font-size="13" font-weight="700" fill="${t.text}">${esc(m.role.replace('&amp;', '&'))}</text>
+              <text x="${m.role.length * 8.2 + 8}" y="0" font-family="${FONTS.sans}" font-size="13" font-weight="600" fill="${m.color}">@ ${esc(m.org)}</text>
               <text x="760" y="0" text-anchor="end" font-family="${FONTS.mono}" font-size="10.5" fill="${t.muted}">${esc(m.period)}</text>
             </g>
 
             <g transform="translate(16, 42)">
-              <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}">${esc(m.bullets)}</text>
+              <text font-family="${FONTS.sans}" font-size="11" fill="${t.muted}">${m.bullets}</text>
             </g>
           </g>
         </g>
@@ -198,11 +215,12 @@ export async function renderBento(outDir = "dist") {
 
     return cardFrame({
       width: W,
-      height: 440,
+      height: H,
       theme,
       fullPage,
-      title: "💼 Production Experience & Internships",
-      badge: "4 INTERNSHIPS · 1 COMMUNITY FOUNDED · SCALED SYSTEMS",
+      title: "💼 Production Experience &amp; Internships",
+      badge: "4 INTERNSHIPS · 1 COMMUNITY FOUNDED · SHIPPED PRODUCTION SYSTEMS",
+      icon: "🏢",
       css,
       content: itemsSvg,
     });
@@ -216,4 +234,3 @@ export async function renderBento(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-bento.mjs")) {
   await renderBento(process.argv[2] || "dist");
 }
-

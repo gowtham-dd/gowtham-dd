@@ -41,7 +41,7 @@ export async function renderHackathons(outDir = "dist") {
         place: "2ND PLACE",
         event: "HackAppsters",
         desc: "Chest Radiogram Disease Classifier",
-        venue: "L&T EduTech · 2026",
+        venue: "L&amp;T EduTech · 2026",
         badgeColor: t.cyan,
       },
       {
@@ -71,7 +71,7 @@ export async function renderHackathons(outDir = "dist") {
     const cardW = 196;
     const cardH = 110;
     const startX = 32;
-    const startY = 75;
+    const startY = 78;
     const gapX = 18;
     const gapY = 16;
 
@@ -97,7 +97,7 @@ export async function renderHackathons(outDir = "dist") {
           </g>
 
           <g transform="translate(14, 94)">
-            <text font-family="${FONTS.mono}" font-size="9" fill="${t.dim}">${esc(w.venue)}</text>
+            <text font-family="${FONTS.mono}" font-size="9" fill="${t.dim}">${w.venue}</text>
           </g>
         </g>
       `;
@@ -114,8 +114,9 @@ export async function renderHackathons(outDir = "dist") {
       height: H,
       theme,
       fullPage,
-      title: "🏆 Hackathons & Championship Awards",
+      title: "🏆 Hackathons &amp; Championship Awards",
       badge: "3× FIRST PRIZE · 1× BEST PAPER · 1× GOLD MEDAL",
+      icon: "🏆",
       css,
       content: cardsSvg,
     });
@@ -128,4 +129,3 @@ export async function renderHackathons(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-hackathons.mjs")) {
   await renderHackathons(process.argv[2] || "dist");
 }
-

@@ -13,7 +13,7 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
     const cardW = 416;
     const cardH = 120;
     const startX = 32;
-    const startY = 70;
+    const startY = 74;
     const gapX = 24;
     const gapY = 16;
 
@@ -95,6 +95,7 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
       fullPage,
       title: "📌 Pinned Repositories",
       badge: "LIVE FROM GITHUB · CLOUD SYNCED",
+      icon: "📌",
       css,
       content: cardsSvg,
     });
@@ -107,4 +108,3 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-pinned.mjs")) {
   await renderPinnedCards(process.argv[2] || "gowtham-dd", process.argv[3] || "dist");
 }
-
