@@ -128,3 +128,4 @@ export async function renderHackathons(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-hackathons.mjs")) {
   await renderHackathons(process.argv[2] || "dist");
 }
+

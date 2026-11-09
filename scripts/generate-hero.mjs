@@ -56,3 +56,4 @@ export async function renderHero(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-hero.mjs")) {
   await renderHero(process.argv[2] || "dist");
 }
+

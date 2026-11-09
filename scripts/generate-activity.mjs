@@ -86,3 +86,4 @@ export async function renderActivity(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-activity.mjs")) {
   await renderActivity(process.argv[2] || "dist");
 }
+

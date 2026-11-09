@@ -107,3 +107,4 @@ export async function renderPinnedCards(login = "gowtham-dd", outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-pinned.mjs")) {
   await renderPinnedCards(process.argv[2] || "gowtham-dd", process.argv[3] || "dist");
 }
+

@@ -104,3 +104,4 @@ export async function saveVariants({ outDir, filename, render }) {
   }
   await writeFile(join(outDir, `${filename}-full.svg`), render({ theme: "dark", fullPage: true }));
 }
+

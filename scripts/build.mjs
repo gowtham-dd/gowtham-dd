@@ -97,3 +97,4 @@ ${card("activity-radar", "Engineering Metrics", "Engineering Metrics & Code Dist
 
 await writeFile("README.md", readmeContent);
 console.log("Successfully generated all graphics and updated README.md!");
+

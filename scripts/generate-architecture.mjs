@@ -140,3 +140,4 @@ export async function renderArchitecture(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-architecture.mjs")) {
   await renderArchitecture(process.argv[2] || "dist");
 }
+

@@ -216,3 +216,4 @@ export async function renderBento(outDir = "dist") {
 if (process.argv[1]?.endsWith("generate-bento.mjs")) {
   await renderBento(process.argv[2] || "dist");
 }
+
