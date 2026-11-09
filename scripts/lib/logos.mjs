@@ -82,3 +82,4 @@ export function renderLogo(name, x, y, size = 24) {
   if (!logo) return "";
   return `<g transform="translate(${x}, ${y}) scale(${size / 24})">${logo}</g>`;
 }
+
