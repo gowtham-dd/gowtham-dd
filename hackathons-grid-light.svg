@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="348" viewBox="0 0 920 348" role="img" aria-label="🏆 Hackathons · Honors + Awards">
+<defs>
+  <radialGradient id="meshGlow" cx="85%" cy="15%" r="65%">
+    <stop offset="0%" stop-color="#E04818" stop-opacity="0.08"/>
+    <stop offset="50%" stop-color="#0891B2" stop-opacity="0.03"/>
+    <stop offset="100%" stop-color="#E04818" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#E2E8F0" opacity="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .txt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#0F172A}
+  .sub{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#64748B}
+  .code{font-family:ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;fill:#64748B}
+  .title{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;font-weight:700;fill:#0F172A}
+  
+      .h-bg{transition:fill 0.2s, stroke 0.2s}
+      .h-card:hover .h-bg{fill:#F1F5F9;stroke:#E04818}
+    
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="919" height="347" rx="18" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="919" height="347" rx="18" fill="url(#gridDots)"/>
+<rect x="0.5" y="0.5" width="919" height="347" rx="18" fill="url(#meshGlow)"/>
+<g transform="translate(32, 42)">
+        <circle cx="0" cy="0" r="5" fill="#E04818"/>
+        <text x="14" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14">🏆</text>
+        <text x="34" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.12em" fill="#E04818">🏆 HACKATHONS · HONORS + AWARDS</text>
+        <text x="856" y="4" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.08em" fill="#64748B">3× FIRST PRIZE · 1× BEST PAPER · 1× GOLD MEDAL</text>
+        <line x1="-12" y1="20" x2="868" y2="20" stroke="#E2E8F0" stroke-width="1"/>
+      </g>
+
+        <g class="h-card" transform="translate(32, 76)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#E04818" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#E04818" letter-spacing="0.06em">1ST PRIZE</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">HackNext&apos;26 1.0</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">17-Agent Healthcare Cla...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">SNS College of Technology · 2026</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(246, 76)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#D97706" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#D97706" letter-spacing="0.06em">BEST PAPER</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">ICAITICA 2026</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">Drug Trafficking Detect...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">International Conf · 2026</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(460, 76)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#E04818" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#E04818" letter-spacing="0.06em">1ST PRIZE</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">Tech Hack &apos;24</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">SocioMedico AI Hospital...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">AIC Raise Coimbatore · 2024</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(674, 76)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#E04818" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#E04818" letter-spacing="0.06em">1ST PRIZE</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">SNS Tech Hack</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">24-hr EV Charging Booki...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">SNS College of Technology · 2024</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(32, 202)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#0891B2" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#0891B2" letter-spacing="0.06em">2ND PLACE</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">HackAppsters</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">Chest Radiogram Disease...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">L&amp;T EduTech · 2026</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(246, 202)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#64748B" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#64748B" letter-spacing="0.06em">3RD PRIZE</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">HackVision &apos;26</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">End-to-end Event Manage...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">HackVision · 2026</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(460, 202)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#D97706" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#D97706" letter-spacing="0.06em">TOP 50</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">Kaggle Playground</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">Competitive Machine Lea...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">Kaggle Series · 2026</text>
+          </g>
+        </g>
+      
+
+        <g class="h-card" transform="translate(674, 202)">
+          <rect class="h-bg" width="196" height="110" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+          
+          <g transform="translate(14, 24)">
+            <!-- Award Pill -->
+            <rect width="82" height="18" rx="9" fill="#F1F5F9" stroke="#D97706" stroke-width="0.8"/>
+            <text x="41" y="12" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#D97706" letter-spacing="0.06em">GOLD MEDAL</text>
+          </g>
+
+          <g transform="translate(14, 58)">
+            <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12" font-weight="700" fill="#0F172A">SKASC Chess Meet</text>
+            <text y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="10.5" fill="#64748B">Inter-department Chess ...</text>
+          </g>
+
+          <g transform="translate(14, 94)">
+            <text font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" fill="#94A3B8">Yaayu House · 2026</text>
+          </g>
+        </g>
+      
+</svg>

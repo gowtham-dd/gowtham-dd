@@ -1,0 +1,301 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="484" viewBox="0 0 920 484" role="img" aria-label="⚙️ Technical Capabilities · Stack">
+<defs>
+  <radialGradient id="meshGlow" cx="85%" cy="15%" r="65%">
+    <stop offset="0%" stop-color="#FF5722" stop-opacity="0.15"/>
+    <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#1E2638" opacity="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .txt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#F8FAFC}
+  .sub{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#94A3B8}
+  .code{font-family:ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;fill:#94A3B8}
+  .title{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;font-weight:700;fill:#F8FAFC}
+  
+      .b-bg{transition:fill 0.2s, stroke 0.2s}
+      .bento-box:hover .b-bg{fill:#151B26;stroke:#FF5722}
+    
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="919" height="483" rx="18" fill="#08090C" stroke="#1E2638" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="919" height="483" rx="18" fill="url(#gridDots)"/>
+<rect x="0.5" y="0.5" width="919" height="483" rx="18" fill="url(#meshGlow)"/>
+<g transform="translate(32, 42)">
+        <circle cx="0" cy="0" r="5" fill="#FF5722"/>
+        <text x="14" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14">⚡</text>
+        <text x="34" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.12em" fill="#FF5722">⚙️ TECHNICAL CAPABILITIES · STACK</text>
+        <text x="856" y="4" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.08em" fill="#94A3B8">AGENTIC AI · COMPUTER VISION · MLOPS · VECTOR DATABASES</text>
+        <line x1="-12" y1="20" x2="868" y2="20" stroke="#1E2638" stroke-width="1"/>
+      </g>
+
+        <g class="bento-box" transform="translate(32, 74)">
+          <rect class="b-bg" width="416" height="184" rx="14" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+          
+          <!-- Header -->
+          <g transform="translate(18, 28)">
+            <circle cx="0" cy="0" r="4.5" fill="#FF5722"/>
+            <text x="14" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#FF5722">AGENTIC AI + LLMS</text>
+            <rect x="266" y="-11" width="132" height="20" rx="10" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+            <text x="332" y="3" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#94A3B8">CORE EXPERTISE</text>
+          </g>
+
+          <!-- 2x2 Tool Pills Strip -->
+          <g>
+            <g transform="translate(18, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <circle cx="6" cy="6" r="3" fill="#FF5722"/>
+      <circle cx="18" cy="6" r="3" fill="#06B6D4"/>
+      <circle cx="12" cy="18" r="3.5" fill="#FBBF24"/>
+      <line x1="6" y1="6" x2="18" y2="6" stroke="#94A3B8" stroke-width="1.5"/>
+      <line x1="6" y1="6" x2="12" y2="18" stroke="#FF5722" stroke-width="1.5"/>
+      <line x1="18" y1="6" x2="12" y2="18" stroke="#06B6D4" stroke-width="1.5"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">LangGraph</text>
+            </g>
+          
+            <g transform="translate(210, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2C6.5 2 7 4.4 7 4.4V7h5.2v.7H5V13s-.2 3 5 3h1.8v-2.3c0-1.8 1.5-2.4 3.2-2.4h3V7.2C18 3 14 2 12 2zm-2 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#3776AB"/>
+      <path d="M12 22c5.5 0 5-2.4 5-2.4V17h-5.2v-.7H19V11s.2-3-5-3h-1.8v2.3c0 1.8-1.5 2.4-3.2 2.4h-3v5.1C6 21 10 22 12 22zm2-2a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" fill="#FFD43B"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Python</text>
+            </g>
+          
+            <g transform="translate(18, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5h-2.5l3-6.5h-3l3-4.5v5h2.5z" fill="#009688"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">FastAPI</text>
+            </g>
+          
+            <g transform="translate(210, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M4 11h2v2H4zm3 0h2v2H7zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2H7zm3 0h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" fill="#2496ED"/>
+      <path d="M21.5 12.5c-.5-.4-1.3-.4-1.8-.1-.4.2-.7.6-.8 1.1-.9-.2-2-.1-2.9.4-.1.1-.3.2-.4.4H2c.3 3.5 2.9 6.2 6.5 6.2 4.6 0 8.5-3.1 9.3-7.5.9.1 1.9-.3 2.5-1 .5-.6.6-1.5.3-2.1l-.1-.2-.2-.2z" fill="#2496ED"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Docker</text>
+            </g>
+          </g>
+
+          <!-- Clean Wrapped Description -->
+          <g transform="translate(18, 140)">
+            <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">Autonomous multi-agent orchestration,</text>
+<text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">state machines and tool calling.</text>
+          </g>
+        </g>
+      
+
+        <g class="bento-box" transform="translate(472, 74)">
+          <rect class="b-bg" width="416" height="184" rx="14" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+          
+          <!-- Header -->
+          <g transform="translate(18, 28)">
+            <circle cx="0" cy="0" r="4.5" fill="#06B6D4"/>
+            <text x="14" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#06B6D4">COMPUTER VISION + DL</text>
+            <rect x="266" y="-11" width="132" height="20" rx="10" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+            <text x="332" y="3" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#94A3B8">NEURAL NETWORKS</text>
+          </g>
+
+          <!-- 2x2 Tool Pills Strip -->
+          <g>
+            <g transform="translate(18, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M13.5 3a7.5 7.5 0 1 0 5.3 12.8l-1.8-1.8a5 5 0 1 1-3.5-8.5V3z" fill="#EE4C2C"/>
+      <circle cx="17.5" cy="5.5" r="1.5" fill="#EE4C2C"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">PyTorch</text>
+            </g>
+          
+            <g transform="translate(210, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm0 2.2l6.8 3.8v7.6L12 19.4l-6.8-3.8V8L12 4.2z" fill="#FF6F00"/>
+      <path d="M12 8.5v7l4-2.2v-7L12 8.5z" fill="#FFA000"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">TensorFlow</text>
+            </g>
+          
+            <g transform="translate(18, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <circle cx="12" cy="7" r="4" fill="none" stroke="#EA2027" stroke-width="2.5"/>
+      <circle cx="7" cy="16" r="4" fill="none" stroke="#009432" stroke-width="2.5"/>
+      <circle cx="17" cy="16" r="4" fill="none" stroke="#0652DD" stroke-width="2.5"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">OpenCV</text>
+            </g>
+          
+            <g transform="translate(210, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2A10 10 0 0 0 2 12c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.4-2.2-.2-4.5-1.1-4.5-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.6 5 .4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5 4-1.3 6.8-5.1 6.8-9.5A10 10 0 0 0 12 2z" fill="#F8FAFC"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">GitHub</text>
+            </g>
+          </g>
+
+          <!-- Clean Wrapped Description -->
+          <g transform="translate(18, 140)">
+            <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">YOLOv11 road damage detection, medical</text>
+<text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">segmentation and NLP clustering.</text>
+          </g>
+        </g>
+      
+
+        <g class="bento-box" transform="translate(32, 274)">
+          <rect class="b-bg" width="416" height="184" rx="14" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+          
+          <!-- Header -->
+          <g transform="translate(18, 28)">
+            <circle cx="0" cy="0" r="4.5" fill="#FBBF24"/>
+            <text x="14" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#FBBF24">MLOPS + PIPELINES</text>
+            <rect x="266" y="-11" width="132" height="20" rx="10" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+            <text x="332" y="3" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#94A3B8">PRODUCTION SYSTEMS</text>
+          </g>
+
+          <!-- 2x2 Tool Pills Strip -->
+          <g>
+            <g transform="translate(18, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M4 11h2v2H4zm3 0h2v2H7zm3 0h2v2h-2zm3 0h2v2h-2zm-6-3h2v2H7zm3 0h2v2h-2zm3 0h2v2h-2zm3 0h2v2h-2z" fill="#2496ED"/>
+      <path d="M21.5 12.5c-.5-.4-1.3-.4-1.8-.1-.4.2-.7.6-.8 1.1-.9-.2-2-.1-2.9.4-.1.1-.3.2-.4.4H2c.3 3.5 2.9 6.2 6.5 6.2 4.6 0 8.5-3.1 9.3-7.5.9.1 1.9-.3 2.5-1 .5-.6.6-1.5.3-2.1l-.1-.2-.2-.2z" fill="#2496ED"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Docker</text>
+            </g>
+          
+            <g transform="translate(210, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 14.5h-2.5l3-6.5h-3l3-4.5v5h2.5z" fill="#009688"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">FastAPI</text>
+            </g>
+          
+            <g transform="translate(18, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M21.7 10.9L13.1 2.3c-.4-.4-1-.4-1.4 0l-2 2 2.5 2.5c.5-.2 1-.1 1.4.3.4.4.5 1 .3 1.5l2.4 2.4c.5-.2 1.1-.1 1.5.3.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.4-.4-.5-1-.3-1.5L13 9.5v5.3c.2.1.4.3.5.5.6.6.6 1.5 0 2.1-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1.2-.2.4-.4.6-.5V9.4c-.2-.1-.4-.3-.6-.5-.4-.4-.5-1-.3-1.5L8.7 4.9 2.3 11.3c-.4.4-.4 1 0 1.4l8.6 8.6c.4.4 1 .4 1.4 0l8.6-8.6c.4-.4.4-1.1.8-1.8z" fill="#F05032"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Git</text>
+            </g>
+          
+            <g transform="translate(210, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M7 11.5c-1.5 0-2.5.8-2.5 2.2 0 1.5 1 2.3 2.5 2.3 1.3 0 2.2-.7 2.5-1.5v1.3h1.8v-6H9.5v1.2c-.5-.9-1.3-1.5-2.5-1.5zm.3 3.1c-.8 0-1.3-.4-1.3-1s.5-1 1.3-1c.8 0 1.3.4 1.3 1s-.5 1-1.3 1z" fill="#FF9900"/>
+      <path d="M4 18c4.5 2.5 11 2.5 15.5 0-.5-.5-1.2-.8-2-1-3.5 1.8-8.5 1.8-12 0-.5.3-1 .6-1.5 1z" fill="#FF9900"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">AWS</text>
+            </g>
+          </g>
+
+          <!-- Clean Wrapped Description -->
+          <g transform="translate(18, 140)">
+            <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">Automated training loops, MLflow</text>
+<text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">tracking, containerization and 99.9%</text>
+<text x="0" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">uptime.</text>
+          </g>
+        </g>
+      
+
+        <g class="bento-box" transform="translate(472, 274)">
+          <rect class="b-bg" width="416" height="184" rx="14" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+          
+          <!-- Header -->
+          <g transform="translate(18, 28)">
+            <circle cx="0" cy="0" r="4.5" fill="#FF5722"/>
+            <text x="14" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#FF5722">DATA + VECTOR STORES</text>
+            <rect x="266" y="-11" width="132" height="20" rx="10" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+            <text x="332" y="3" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#94A3B8">KNOWLEDGE ENGINES</text>
+          </g>
+
+          <!-- 2x2 Tool Pills Strip -->
+          <g>
+            <g transform="translate(18, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2C6.5 2 2 6.5 2 12c0 4.2 2.6 7.8 6.3 9.3.4.1.8-.1.9-.5l.8-4c-.7-.4-1.2-1.2-1.2-2.1 0-1.4 1.1-2.5 2.5-2.5.4 0 .7.1 1 .2.5-.9 1.4-1.5 2.5-1.5 1.7 0 3 1.3 3 3 0 .8-.3 1.5-.8 2 .7.4 1.3 1.1 1.3 2 0 1.2-.9 2.2-2.1 2.3l.8 3.8c.1.4.5.6.9.5C19.4 19.8 22 16.2 22 12c0-5.5-4.5-10-10-10z" fill="#336791"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">PostgreSQL</text>
+            </g>
+          
+            <g transform="translate(210, 52)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M7 11.5c-1.5 0-2.5.8-2.5 2.2 0 1.5 1 2.3 2.5 2.3 1.3 0 2.2-.7 2.5-1.5v1.3h1.8v-6H9.5v1.2c-.5-.9-1.3-1.5-2.5-1.5zm.3 3.1c-.8 0-1.3-.4-1.3-1s.5-1 1.3-1c.8 0 1.3.4 1.3 1s-.5 1-1.3 1z" fill="#FF9900"/>
+      <path d="M4 18c4.5 2.5 11 2.5 15.5 0-.5-.5-1.2-.8-2-1-3.5 1.8-8.5 1.8-12 0-.5.3-1 .6-1.5 1z" fill="#FF9900"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">AWS S3</text>
+            </g>
+          
+            <g transform="translate(18, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <path d="M12 2C6.5 2 7 4.4 7 4.4V7h5.2v.7H5V13s-.2 3 5 3h1.8v-2.3c0-1.8 1.5-2.4 3.2-2.4h3V7.2C18 3 14 2 12 2zm-2 2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#3776AB"/>
+      <path d="M12 22c5.5 0 5-2.4 5-2.4V17h-5.2v-.7H19V11s.2-3-5-3h-1.8v2.3c0 1.8-1.5 2.4-3.2 2.4h-3v5.1C6 21 10 22 12 22zm2-2a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" fill="#FFD43B"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Python</text>
+            </g>
+          
+            <g transform="translate(210, 88)">
+              <rect width="180" height="30" rx="8" fill="#161D2B" stroke="#1E2638" stroke-width="0.8"/>
+              <g transform="translate(10, 4) scale(0.9166666666666666)">
+    <g transform="scale(0.85)">
+      <circle cx="12" cy="7" r="2.5" fill="#000000"/>
+      <circle cx="7" cy="14" r="2.5" fill="#000000"/>
+      <circle cx="17" cy="14" r="2.5" fill="#000000"/>
+      <path d="M12 9.5v8M7 16.5l5 2.5 5-2.5" stroke="#000000" stroke-width="1.8" fill="none"/>
+    </g>
+  </g>
+              <text x="38" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" font-weight="600" fill="#F8FAFC">Pinecone</text>
+            </g>
+          </g>
+
+          <!-- Clean Wrapped Description -->
+          <g transform="translate(18, 140)">
+            <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">Hybrid semantic search, sub-100ms</text>
+<text x="0" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">vector embeddings and FHIR R4</text>
+<text x="0" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11.5" fill="#94A3B8">pipelines.</text>
+          </g>
+        </g>
+      
+</svg>
