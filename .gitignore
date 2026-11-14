@@ -1,3 +1,4 @@
 reference/
 dist/
 node_modules/
+.agents/
