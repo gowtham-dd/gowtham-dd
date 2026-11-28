@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="496" viewBox="0 0 920 496" role="img" aria-label="💼 Production Experience · Internships">
+<defs>
+  <radialGradient id="meshGlow" cx="85%" cy="15%" r="65%">
+    <stop offset="0%" stop-color="#FF5722" stop-opacity="0.15"/>
+    <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#1E2638" opacity="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .txt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#F8FAFC}
+  .sub{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#94A3B8}
+  .code{font-family:ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;fill:#94A3B8}
+  .title{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;font-weight:700;fill:#F8FAFC}
+  
+      .e-bg{transition:fill 0.2s, stroke 0.2s}
+      .exp-item:hover .e-bg{fill:#151B26;stroke:#FF5722}
+    
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="919" height="495" rx="18" fill="#08090C" stroke="#1E2638" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="919" height="495" rx="18" fill="url(#gridDots)"/>
+<rect x="0.5" y="0.5" width="919" height="495" rx="18" fill="url(#meshGlow)"/>
+<g transform="translate(32, 42)">
+        <circle cx="0" cy="0" r="5" fill="#FF5722"/>
+        <text x="14" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="14">🏢</text>
+        <text x="34" y="4" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="0.12em" fill="#FF5722">💼 PRODUCTION EXPERIENCE · INTERNSHIPS</text>
+        <text x="856" y="4" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="600" letter-spacing="0.08em" fill="#94A3B8">4 INTERNSHIPS · 1 COMMUNITY FOUNDED · SHIPPED PRODUCTION SYSTEMS</text>
+        <line x1="-12" y1="20" x2="868" y2="20" stroke="#1E2638" stroke-width="1"/>
+      </g>
+
+        <g class="exp-item" transform="translate(50, 74)">
+          <!-- Step indicator line and circle -->
+          <line x1="-18" y1="20" x2="-18" y2="90" stroke="#1E2638" stroke-width="2"/>
+          <circle cx="-18" cy="14" r="6" fill="#FF5722"/>
+          <circle cx="-18" cy="14" r="2.5" fill="#08090C"/>
+
+          <!-- Card Content -->
+          <g>
+            <rect class="e-bg" width="820" height="72" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+            
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F8FAFC">AI Developer Intern</text>
+              <text x="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#FF5722">@ Noukha Technologies</text>
+              <text x="784" y="0" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#94A3B8">Mar 2026 – Present</text>
+            </g>
+
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FF5722" font-weight="700">● </tspan>Reduced system latency by 32% and compute cost by 20% on FastAPI backend</text>
+            </g>
+            <g transform="translate(18, 59)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FF5722" font-weight="700">● </tspan>Optimized AWS S3 vector storage and retrieval pipelines, boosting recall by 45%</text>
+            </g>
+          </g>
+        </g>
+      
+
+        <g class="exp-item" transform="translate(50, 154)">
+          <!-- Step indicator line and circle -->
+          <line x1="-18" y1="20" x2="-18" y2="90" stroke="#1E2638" stroke-width="2"/>
+          <circle cx="-18" cy="14" r="6" fill="#06B6D4"/>
+          <circle cx="-18" cy="14" r="2.5" fill="#08090C"/>
+
+          <!-- Card Content -->
+          <g>
+            <rect class="e-bg" width="820" height="72" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+            
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F8FAFC">AI Developer Intern</text>
+              <text x="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#06B6D4">@ Pixel Cognitix</text>
+              <text x="784" y="0" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#94A3B8">Oct 2025 – Present</text>
+            </g>
+
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#06B6D4" font-weight="700">● </tspan>Built automated n8n + Python pipelines ingesting 2.5M rows of web data</text>
+            </g>
+            <g transform="translate(18, 59)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#06B6D4" font-weight="700">● </tspan>Fine-tuned local threat classification agent, improving model accuracy by 18%</text>
+            </g>
+          </g>
+        </g>
+      
+
+        <g class="exp-item" transform="translate(50, 234)">
+          <!-- Step indicator line and circle -->
+          <line x1="-18" y1="20" x2="-18" y2="90" stroke="#1E2638" stroke-width="2"/>
+          <circle cx="-18" cy="14" r="6" fill="#FBBF24"/>
+          <circle cx="-18" cy="14" r="2.5" fill="#08090C"/>
+
+          <!-- Card Content -->
+          <g>
+            <rect class="e-bg" width="820" height="72" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+            
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F8FAFC">App + AI Developer Intern</text>
+              <text x="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#FBBF24">@ Alesa AI (UK)</text>
+              <text x="784" y="0" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#94A3B8">Mar 2025 – Sep 2025</text>
+            </g>
+
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FBBF24" font-weight="700">● </tspan>Scaled production APIs for flagship applications (Noulez + SnagNinja)</text>
+            </g>
+            <g transform="translate(18, 59)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FBBF24" font-weight="700">● </tspan>Optimized SQL indexing and query execution, cutting read latency by 40%</text>
+            </g>
+          </g>
+        </g>
+      
+
+        <g class="exp-item" transform="translate(50, 314)">
+          <!-- Step indicator line and circle -->
+          <line x1="-18" y1="20" x2="-18" y2="90" stroke="#1E2638" stroke-width="2"/>
+          <circle cx="-18" cy="14" r="6" fill="#FF5722"/>
+          <circle cx="-18" cy="14" r="2.5" fill="#08090C"/>
+
+          <!-- Card Content -->
+          <g>
+            <rect class="e-bg" width="820" height="72" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+            
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F8FAFC">App + AI Developer Intern</text>
+              <text x="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#FF5722">@ Pyroguards (CBE)</text>
+              <text x="784" y="0" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#94A3B8">Jan 2025 – Mar 2025</text>
+            </g>
+
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FF5722" font-weight="700">● </tspan>Engineered XGBoost URL phishing classifier with 98.4% detection accuracy</text>
+            </g>
+            <g transform="translate(18, 59)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#FF5722" font-weight="700">● </tspan>Containerized model with FastAPI + Docker, delivering 95ms median response time</text>
+            </g>
+          </g>
+        </g>
+      
+
+        <g class="exp-item" transform="translate(50, 394)">
+          <!-- Step indicator line and circle -->
+          
+          <circle cx="-18" cy="14" r="6" fill="#06B6D4"/>
+          <circle cx="-18" cy="14" r="2.5" fill="#08090C"/>
+
+          <!-- Card Content -->
+          <g>
+            <rect class="e-bg" width="820" height="72" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+            
+            <!-- Title, Org (aligned at fixed x=240 column), and Period -->
+            <g transform="translate(18, 22)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="700" fill="#F8FAFC">Founder + Community Lead</text>
+              <text x="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#06B6D4">@ Literate Spork</text>
+              <text x="784" y="0" text-anchor="end" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="500" fill="#94A3B8">2024 – Present</text>
+            </g>
+
+            <!-- Clean Justified Bullets inside the box -->
+            <g transform="translate(18, 43)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#06B6D4" font-weight="700">● </tspan>Mentored 50+ students in hands-on MLOps, LLM architectures + Agentic AI</text>
+            </g>
+            <g transform="translate(18, 59)">
+              <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="11" fill="#94A3B8"><tspan fill="#06B6D4" font-weight="700">● </tspan>Maintained 20+ open-source repositories and led 40+ technical peer reviews</text>
+            </g>
+          </g>
+        </g>
+      
+</svg>

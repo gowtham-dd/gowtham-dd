@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="Portfolio Infographic">
+<defs>
+  <radialGradient id="meshGlow" cx="85%" cy="15%" r="65%">
+    <stop offset="0%" stop-color="#FF5722" stop-opacity="0.15"/>
+    <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="gridDots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="0.8" fill="#1E2638" opacity="0.6"/>
+  </pattern>
+</defs>
+<style>
+  .txt{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#F8FAFC}
+  .sub{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;fill:#94A3B8}
+  .code{font-family:ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace;fill:#94A3B8}
+  .title{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif;font-weight:700;fill:#F8FAFC}
+  
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="919" height="259" rx="18" fill="#08090C" stroke="#1E2638" stroke-width="1"/>
+<rect x="0.5" y="0.5" width="919" height="259" rx="18" fill="url(#gridDots)"/>
+<rect x="0.5" y="0.5" width="919" height="259" rx="18" fill="url(#meshGlow)"/>
+
+
+        <!-- Left Side: HUD Telemetry and Identity -->
+        <g transform="translate(40, 42)">
+          <rect width="270" height="24" rx="12" fill="#161D2B" stroke="#1E2638" stroke-width="1"/>
+          <circle cx="14" cy="12" r="4" fill="#10B981"/>
+          <text x="28" y="16" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="0.08em" fill="#F8FAFC">SYSTEM STATUS: PRODUCTION ONLINE</text>
+
+          <text x="0" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.03em" fill="#F8FAFC">Gowtham D</text>
+          <text x="245" y="66" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#FF5722" letter-spacing="0.1em">AI ENGINEER</text>
+
+          <text x="0" y="104" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, sans-serif" font-size="15.5" font-weight="500" fill="#94A3B8">
+            I build AI systems that <tspan fill="#FF5722" font-weight="700">actually ship</tspan>. LangGraph multi-agents and automated MLOps.
+          </text>
+        </g>
+
+        <!-- Right Side: Restored Isometric AI Neural Core Visual -->
+        <g>
+          <circle cx="740" cy="115" r="95" fill="#FF5722" opacity="0.10" stroke="#1E2638" stroke-width="1" stroke-dasharray="3 3"/>
+          <line x1="740" y1="40" x2="740" y2="90" stroke="#1E2638" stroke-width="1.5" stroke-dasharray="3 3"/>
+          <line x1="690" y1="115" x2="740" y2="90" stroke="#1E2638" stroke-width="1.5"/>
+          <line x1="740" y1="90" x2="790" y2="115" stroke="#1E2638" stroke-width="1.5"/>
+          <line x1="690" y1="115" x2="740" y2="140" stroke="#1E2638" stroke-width="1.5"/>
+          <line x1="740" y1="140" x2="790" y2="115" stroke="#1E2638" stroke-width="1.5"/>
+          
+        <g transform="translate(740, 90)">
+          <polygon points="0,-16 26,-2 0,12 -26,-2" fill="#FF5722" opacity="0.85"/>
+          <polygon points="-26,-2 0,12 0,42 -26,28" fill="#FF5722" opacity="0.6"/>
+          <polygon points="0,12 26,-2 26,28 0,42" fill="#FF5722" opacity="0.4"/>
+        </g>
+      
+        <g transform="translate(790, 115)">
+          <polygon points="0,-16 26,-2 0,12 -26,-2" fill="#FBBF24" opacity="0.85"/>
+          <polygon points="-26,-2 0,12 0,42 -26,28" fill="#FBBF24" opacity="0.6"/>
+          <polygon points="0,12 26,-2 26,28 0,42" fill="#FBBF24" opacity="0.4"/>
+        </g>
+      
+        <g transform="translate(690, 115)">
+          <polygon points="0,-16 26,-2 0,12 -26,-2" fill="#06B6D4" opacity="0.85"/>
+          <polygon points="-26,-2 0,12 0,42 -26,28" fill="#06B6D4" opacity="0.6"/>
+          <polygon points="0,12 26,-2 26,28 0,42" fill="#06B6D4" opacity="0.4"/>
+        </g>
+      
+        <g transform="translate(740, 140)">
+          <polygon points="0,-16 26,-2 0,12 -26,-2" fill="#8B5CF6" opacity="0.85"/>
+          <polygon points="-26,-2 0,12 0,42 -26,28" fill="#8B5CF6" opacity="0.6"/>
+          <polygon points="0,12 26,-2 26,28 0,42" fill="#8B5CF6" opacity="0.4"/>
+        </g>
+      
+        <g transform="translate(740, 40)">
+          <polygon points="0,-16 26,-2 0,12 -26,-2" fill="#FF5722" opacity="0.85"/>
+          <polygon points="-26,-2 0,12 0,42 -26,28" fill="#FF5722" opacity="0.6"/>
+          <polygon points="0,12 26,-2 26,28 0,42" fill="#FF5722" opacity="0.4"/>
+        </g>
+      
+          <text x="740" y="200" text-anchor="middle" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="0.1em" fill="#94A3B8">AUTONOMOUS NEURAL CORE</text>
+        </g>
+
+        <!-- Bottom Telemetry Ribbon -->
+        <g transform="translate(40, 192)">
+          <rect width="840" height="40" rx="10" fill="#0F121A" stroke="#1E2638" stroke-width="1"/>
+          
+          <g transform="translate(0, 25)">
+            <text x="24" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+              <tspan fill="#FF5722">🎓</tspan> M.Sc Systems (SKASC)
+            </text>
+            <text x="220" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+              <tspan fill="#FBBF24">🏅</tspan> Data Science @ IIT Madras
+            </text>
+            <text x="440" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+              <tspan fill="#06B6D4">🤖</tspan> AI Intern @ Noukha + Pixel
+            </text>
+            <text x="670" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace" font-size="10.5" fill="#94A3B8">
+              <tspan fill="#FF5722">🚀</tspan> Founder @ Literate Spork
+            </text>
+          </g>
+        </g>
+      
+</svg>
